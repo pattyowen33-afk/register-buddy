@@ -1,0 +1,414 @@
+{
+  "_comment": "Miami University Oxford — undergraduate minor requirements. Source: MU Bulletin 2025-2026 (bulletin.miamioh.edu).",
+  "_version": "1.0",
+  "_source": "bulletin.miamioh.edu 2025-2026",
+
+  "Accounting": {
+    "code": "ACC",
+    "college": "Farmer School of Business",
+    "requiredCredits": 18,
+    "description": "Provides foundational knowledge of financial and managerial accounting principles.",
+    "requiredCourses": [
+      { "code": "ACC 221", "credits": 3, "name": "Financial Accounting", "prereqs": [] },
+      { "code": "ACC 222", "credits": 3, "name": "Managerial Accounting", "prereqs": ["ACC 221"] },
+      { "code": "ACC 321", "credits": 3, "name": "Intermediate Financial Accounting I", "prereqs": ["ACC 222"] },
+      { "code": "ACC 322", "credits": 3, "name": "Intermediate Financial Accounting II", "prereqs": ["ACC 321"] }
+    ],
+    "electiveCourses": ["ACC 323", "ACC 324", "ACC 331", "ACC 332", "ACC 421", "ACC 431", "ACC 441"],
+    "electiveCreditsRequired": 6,
+    "notes": "Must earn a C or better in each course. ACC 221 prerequisite for all courses."
+  },
+
+  "Art History": {
+    "code": "ART",
+    "college": "College of Creative Arts",
+    "requiredCredits": 18,
+    "description": "Survey of the history of art from ancient through contemporary periods.",
+    "requiredCourses": [
+      { "code": "ART 101", "credits": 3, "name": "Survey of Western Art History I", "prereqs": [] },
+      { "code": "ART 102", "credits": 3, "name": "Survey of Western Art History II", "prereqs": [] }
+    ],
+    "electiveCourses": ["ART 201", "ART 202", "ART 203", "ART 301", "ART 302", "ART 320", "ART 321", "ART 401", "ART 402"],
+    "electiveCreditsRequired": 12,
+    "notes": "At least 9 credits must be at 300-level or above."
+  },
+
+  "Biology": {
+    "code": "BIO",
+    "college": "College of Arts and Science",
+    "requiredCredits": 22,
+    "description": "Core study of living organisms, genetics, evolution, and ecology.",
+    "requiredCourses": [
+      { "code": "BIO 115", "credits": 4, "name": "Diversity of Life", "prereqs": [] },
+      { "code": "BIO 116", "credits": 4, "name": "Cell Structure and Function", "prereqs": ["BIO 115"] },
+      { "code": "BIO 161", "credits": 4, "name": "Genetics, Evolution, and Ecology", "prereqs": ["BIO 115"] }
+    ],
+    "electiveCourses": ["BIO 201", "BIO 203", "BIO 305", "BIO 315", "BIO 401", "BIO 430"],
+    "electiveCreditsRequired": 10,
+    "notes": "At least 9 upper-division credits required."
+  },
+
+  "Chemistry": {
+    "code": "CHM",
+    "college": "College of Arts and Science",
+    "requiredCredits": 23,
+    "description": "Foundational chemistry covering general, organic, and analytical chemistry.",
+    "requiredCourses": [
+      { "code": "CHM 141", "credits": 4, "name": "College Chemistry I", "prereqs": [] },
+      { "code": "CHM 142", "credits": 4, "name": "College Chemistry II", "prereqs": ["CHM 141"] },
+      { "code": "CHM 241", "credits": 4, "name": "Organic Chemistry I", "prereqs": ["CHM 142"] },
+      { "code": "CHM 242", "credits": 4, "name": "Organic Chemistry II", "prereqs": ["CHM 241"] }
+    ],
+    "electiveCourses": ["CHM 301", "CHM 311", "CHM 341", "CHM 421", "CHM 441"],
+    "electiveCreditsRequired": 7,
+    "notes": "CHM 141 or CHM 144 required as entry point."
+  },
+
+  "Computer Science": {
+    "code": "CSE",
+    "college": "College of Engineering and Computing",
+    "requiredCredits": 21,
+    "description": "Core computing concepts including programming, data structures, and software design.",
+    "requiredCourses": [
+      { "code": "CSE 174", "credits": 3, "name": "Fundamentals of Programming and Problem Solving", "prereqs": [] },
+      { "code": "CSE 271", "credits": 3, "name": "Object-Oriented Programming", "prereqs": ["CSE 174"] },
+      { "code": "CSE 274", "credits": 3, "name": "Data Abstraction and Data Structures", "prereqs": ["CSE 271"] },
+      { "code": "CSE 374", "credits": 3, "name": "Algorithms I", "prereqs": ["CSE 274"] }
+    ],
+    "electiveCourses": ["CSE 278", "CSE 302", "CSE 381", "CSE 383", "CSE 385", "CSE 386", "CSE 432", "CSE 433", "CSE 465", "CSE 486"],
+    "electiveCreditsRequired": 9,
+    "notes": "At least 6 elective credits must be at 300-level or above."
+  },
+
+  "Communication": {
+    "code": "COM",
+    "college": "College of Arts and Science",
+    "requiredCredits": 18,
+    "description": "Study of human communication theory, interpersonal, and media contexts.",
+    "requiredCourses": [
+      { "code": "COM 101", "credits": 3, "name": "Introduction to Communication", "prereqs": [] },
+      { "code": "COM 202", "credits": 3, "name": "Communication Theory", "prereqs": ["COM 101"] }
+    ],
+    "electiveCourses": ["COM 231", "COM 251", "COM 301", "COM 310", "COM 322", "COM 341", "COM 401", "COM 411"],
+    "electiveCreditsRequired": 12,
+    "notes": "At least 9 credits must be upper-division."
+  },
+
+  "Cybersecurity": {
+    "code": "CYB",
+    "college": "College of Engineering and Computing",
+    "requiredCredits": 18,
+    "description": "Principles of cybersecurity, network defense, cryptography, and ethical hacking.",
+    "requiredCourses": [
+      { "code": "CYB 134", "credits": 3, "name": "Introduction to Cybersecurity", "prereqs": [] },
+      { "code": "CSE 174", "credits": 3, "name": "Fundamentals of Programming and Problem Solving", "prereqs": [] },
+      { "code": "CYB 301", "credits": 3, "name": "Cybersecurity I: Fundamentals", "prereqs": ["CYB 134"] }
+    ],
+    "electiveCourses": ["CYB 302", "CYB 401", "CYB 411", "CYB 431", "CSE 381", "CSE 385"],
+    "electiveCreditsRequired": 9,
+    "notes": "CYB 134 and CSE 174 may be taken simultaneously."
+  },
+
+  "Economics": {
+    "code": "ECO",
+    "college": "College of Arts and Science / Farmer School of Business",
+    "requiredCredits": 18,
+    "description": "Micro and macroeconomic theory, quantitative methods, and applied economics.",
+    "requiredCourses": [
+      { "code": "ECO 101", "credits": 3, "name": "Principles of Microeconomics", "prereqs": [] },
+      { "code": "ECO 102", "credits": 3, "name": "Principles of Macroeconomics", "prereqs": [] },
+      { "code": "ECO 201", "credits": 3, "name": "Intermediate Microeconomic Theory", "prereqs": ["ECO 101"] }
+    ],
+    "electiveCourses": ["ECO 202", "ECO 301", "ECO 311", "ECO 315", "ECO 321", "ECO 401", "ECO 411", "ECO 431"],
+    "electiveCreditsRequired": 9,
+    "notes": "At least 6 upper-division economics credits required."
+  },
+
+  "English": {
+    "code": "ENG",
+    "college": "College of Arts and Science",
+    "requiredCredits": 18,
+    "description": "Literature, writing, and critical theory across historical periods and genres.",
+    "requiredCourses": [
+      { "code": "ENG 111", "credits": 3, "name": "English Composition", "prereqs": [] },
+      { "code": "ENG 112", "credits": 3, "name": "Advanced English Composition", "prereqs": ["ENG 111"] }
+    ],
+    "electiveCourses": ["ENG 201", "ENG 222", "ENG 231", "ENG 251", "ENG 261", "ENG 301", "ENG 311", "ENG 321", "ENG 341", "ENG 401", "ENG 421"],
+    "electiveCreditsRequired": 12,
+    "notes": "At least 9 credits must be at 200-level or above; 6 at 300-level or above."
+  },
+
+  "Environmental Studies": {
+    "code": "EST",
+    "college": "College of Arts and Science",
+    "requiredCredits": 18,
+    "description": "Interdisciplinary study of environmental science, policy, and sustainability.",
+    "requiredCourses": [
+      { "code": "GEO 121", "credits": 3, "name": "Physical Geography", "prereqs": [] },
+      { "code": "BIO 115", "credits": 4, "name": "Diversity of Life", "prereqs": [] }
+    ],
+    "electiveCourses": ["EST 201", "EST 301", "EST 321", "EST 401", "GEO 301", "GEO 310", "BIO 305", "BIO 430"],
+    "electiveCreditsRequired": 11,
+    "notes": "Courses from multiple disciplines encouraged."
+  },
+
+  "Finance": {
+    "code": "FIN",
+    "college": "Farmer School of Business",
+    "requiredCredits": 18,
+    "description": "Corporate finance, investments, financial markets, and risk management.",
+    "requiredCourses": [
+      { "code": "ACC 221", "credits": 3, "name": "Financial Accounting", "prereqs": [] },
+      { "code": "ECO 101", "credits": 3, "name": "Principles of Microeconomics", "prereqs": [] },
+      { "code": "FIN 301", "credits": 3, "name": "Financial Management", "prereqs": ["ACC 221", "ECO 101"] },
+      { "code": "STA 261", "credits": 4, "name": "Statistics", "prereqs": [] }
+    ],
+    "electiveCourses": ["FIN 302", "FIN 303", "FIN 401", "FIN 411", "FIN 421", "FIN 431", "FIN 441"],
+    "electiveCreditsRequired": 5,
+    "notes": "Non-business majors may need to satisfy business school prerequisites."
+  },
+
+  "Geography": {
+    "code": "GEO",
+    "college": "College of Arts and Science",
+    "requiredCredits": 18,
+    "description": "Study of physical and human geography, cartography, and GIS.",
+    "requiredCourses": [
+      { "code": "GEO 121", "credits": 3, "name": "Physical Geography", "prereqs": [] },
+      { "code": "GEO 131", "credits": 3, "name": "Human Geography", "prereqs": [] }
+    ],
+    "electiveCourses": ["GEO 201", "GEO 211", "GEO 301", "GEO 310", "GEO 321", "GEO 401", "GEO 411"],
+    "electiveCreditsRequired": 12,
+    "notes": "At least 9 credits at 300-level or above."
+  },
+
+  "History": {
+    "code": "HST",
+    "college": "College of Arts and Science",
+    "requiredCredits": 18,
+    "description": "Exploration of historical periods, methods, and historiography.",
+    "requiredCourses": [
+      { "code": "HST 111", "credits": 3, "name": "The World to 1500", "prereqs": [] },
+      { "code": "HST 112", "credits": 3, "name": "The World Since 1500", "prereqs": [] }
+    ],
+    "electiveCourses": ["HST 201", "HST 211", "HST 221", "HST 231", "HST 241", "HST 251", "HST 301", "HST 311", "HST 321", "HST 331", "HST 401", "HST 421", "HST 431", "HST 451"],
+    "electiveCreditsRequired": 12,
+    "notes": "At least 9 credits must be upper-division (300+) history courses."
+  },
+
+  "Journalism": {
+    "code": "JRN",
+    "college": "College of Arts and Science",
+    "requiredCredits": 15,
+    "description": "News writing, reporting, media ethics, and digital storytelling.",
+    "requiredCourses": [
+      { "code": "JRN 101", "credits": 3, "name": "Introduction to Journalism and News Writing", "prereqs": [] },
+      { "code": "JRN 201", "credits": 3, "name": "Reporting and Writing", "prereqs": ["JRN 101"] },
+      { "code": "JRN 301", "credits": 3, "name": "Advanced Reporting", "prereqs": ["JRN 201"] }
+    ],
+    "electiveCourses": ["JRN 302", "JRN 311", "JRN 321", "JRN 331", "JRN 401", "JRN 411"],
+    "electiveCreditsRequired": 6,
+    "notes": "Strongly recommended for pre-law, political science, and communication students."
+  },
+
+  "Leadership Studies": {
+    "code": "LDR",
+    "college": "Cross-disciplinary",
+    "requiredCredits": 18,
+    "description": "Theory and practice of leadership across organizational and civic contexts.",
+    "requiredCourses": [
+      { "code": "LDR 201", "credits": 3, "name": "Introduction to Leadership Theory", "prereqs": [] },
+      { "code": "LDR 301", "credits": 3, "name": "Applied Leadership", "prereqs": ["LDR 201"] }
+    ],
+    "electiveCourses": ["LDR 302", "LDR 311", "LDR 401", "MGT 291", "COM 301", "PSY 271"],
+    "electiveCreditsRequired": 12,
+    "notes": "Interdisciplinary — open to all majors."
+  },
+
+  "Marketing": {
+    "code": "MKT",
+    "college": "Farmer School of Business",
+    "requiredCredits": 18,
+    "description": "Consumer behavior, marketing strategy, digital marketing, and brand management.",
+    "requiredCourses": [
+      { "code": "ACC 221", "credits": 3, "name": "Financial Accounting", "prereqs": [] },
+      { "code": "ECO 101", "credits": 3, "name": "Principles of Microeconomics", "prereqs": [] },
+      { "code": "MKT 291", "credits": 3, "name": "Principles of Marketing", "prereqs": ["ACC 221"] }
+    ],
+    "electiveCourses": ["MKT 301", "MKT 311", "MKT 321", "MKT 331", "MKT 341", "MKT 401", "MKT 411", "MKT 421", "MKT 431", "MKT 441"],
+    "electiveCreditsRequired": 9,
+    "notes": "Non-business students may complete prerequisites before enrolling in upper-level courses."
+  },
+
+  "Mathematics": {
+    "code": "MTH",
+    "college": "College of Arts and Science",
+    "requiredCredits": 20,
+    "description": "Calculus, linear algebra, and applied mathematics fundamentals.",
+    "requiredCourses": [
+      { "code": "MTH 151", "credits": 4, "name": "Calculus I", "prereqs": [] },
+      { "code": "MTH 251", "credits": 4, "name": "Calculus II", "prereqs": ["MTH 151"] },
+      { "code": "MTH 222", "credits": 3, "name": "Introduction to Linear Algebra", "prereqs": ["MTH 151"] }
+    ],
+    "electiveCourses": ["MTH 231", "MTH 245", "MTH 252", "MTH 331", "MTH 347", "MTH 421", "MTH 432", "MTH 437"],
+    "electiveCreditsRequired": 9,
+    "notes": "At least 6 credits must be 300-level or above."
+  },
+
+  "Music": {
+    "code": "MUS",
+    "college": "College of Creative Arts",
+    "requiredCredits": 18,
+    "description": "Music history, theory, aural skills, and ensemble participation.",
+    "requiredCourses": [
+      { "code": "MUS 109", "credits": 3, "name": "Music Appreciation", "prereqs": [] },
+      { "code": "MUS 121", "credits": 3, "name": "Music Theory I", "prereqs": [] },
+      { "code": "MUS 123", "credits": 1, "name": "Aural Skills I", "prereqs": ["MUS 121"] }
+    ],
+    "electiveCourses": ["MUS 122", "MUS 201", "MUS 211", "MUS 221", "MUS 231", "MUS 301", "MUS 311", "MUS 331", "MUS 401"],
+    "electiveCreditsRequired": 11,
+    "notes": "Ensemble credit (2+ credits) strongly recommended."
+  },
+
+  "Philosophy": {
+    "code": "PHL",
+    "college": "College of Arts and Science",
+    "requiredCredits": 18,
+    "description": "Ethics, logic, epistemology, and history of philosophical thought.",
+    "requiredCourses": [
+      { "code": "PHL 131", "credits": 3, "name": "Ethics in Practical Life", "prereqs": [] },
+      { "code": "PHL 141", "credits": 3, "name": "Logic", "prereqs": [] }
+    ],
+    "electiveCourses": ["PHL 201", "PHL 211", "PHL 231", "PHL 301", "PHL 311", "PHL 321", "PHL 331", "PHL 401", "PHL 411", "PHL 421", "PHL 431"],
+    "electiveCreditsRequired": 12,
+    "notes": "At least 9 credits at 300-level or above."
+  },
+
+  "Political Science": {
+    "code": "POL",
+    "college": "College of Arts and Science",
+    "requiredCredits": 18,
+    "description": "American politics, comparative government, international relations, and political theory.",
+    "requiredCourses": [
+      { "code": "POL 141", "credits": 3, "name": "American National Government", "prereqs": [] },
+      { "code": "POL 281", "credits": 3, "name": "Introduction to Political Science Research", "prereqs": ["POL 141"] }
+    ],
+    "electiveCourses": ["POL 211", "POL 221", "POL 231", "POL 241", "POL 301", "POL 311", "POL 321", "POL 331", "POL 341", "POL 401", "POL 411", "POL 421"],
+    "electiveCreditsRequired": 12,
+    "notes": "At least 9 credits must be upper-division (300+) political science."
+  },
+
+  "Psychology": {
+    "code": "PSY",
+    "college": "College of Arts and Science",
+    "requiredCredits": 18,
+    "description": "Scientific study of behavior, cognition, development, and mental health.",
+    "requiredCourses": [
+      { "code": "PSY 111", "credits": 3, "name": "Introduction to Psychology", "prereqs": [] },
+      { "code": "PSY 241", "credits": 4, "name": "Research Methods and Statistics", "prereqs": ["PSY 111"] }
+    ],
+    "electiveCourses": ["PSY 221", "PSY 231", "PSY 261", "PSY 271", "PSY 281", "PSY 301", "PSY 311", "PSY 321", "PSY 331", "PSY 341", "PSY 401", "PSY 411", "PSY 431"],
+    "electiveCreditsRequired": 11,
+    "notes": "At least 9 credits must be upper-division (300+) psychology."
+  },
+
+  "Public Administration": {
+    "code": "PBA",
+    "college": "College of Arts and Science",
+    "requiredCredits": 18,
+    "description": "Policy analysis, public sector management, and government administration.",
+    "requiredCourses": [
+      { "code": "POL 141", "credits": 3, "name": "American National Government", "prereqs": [] },
+      { "code": "PBA 201", "credits": 3, "name": "Introduction to Public Administration", "prereqs": [] }
+    ],
+    "electiveCourses": ["PBA 301", "PBA 311", "PBA 321", "PBA 401", "PBA 411", "POL 311", "POL 321", "ECO 201"],
+    "electiveCreditsRequired": 12,
+    "notes": "Excellent pairing with Political Science, Sociology, or Social Work majors."
+  },
+
+  "Sociology": {
+    "code": "SOC",
+    "college": "College of Arts and Science",
+    "requiredCredits": 18,
+    "description": "Social structures, inequality, culture, and sociological research methods.",
+    "requiredCourses": [
+      { "code": "SOC 153", "credits": 3, "name": "Introduction to Sociology", "prereqs": [] },
+      { "code": "SOC 251", "credits": 3, "name": "Social Research Methods", "prereqs": ["SOC 153"] }
+    ],
+    "electiveCourses": ["SOC 201", "SOC 211", "SOC 221", "SOC 231", "SOC 241", "SOC 301", "SOC 311", "SOC 321", "SOC 331", "SOC 401", "SOC 411", "SOC 421"],
+    "electiveCreditsRequired": 12,
+    "notes": "At least 9 credits at 300-level or above."
+  },
+
+  "Spanish": {
+    "code": "SPN",
+    "college": "College of Arts and Science",
+    "requiredCredits": 18,
+    "description": "Spanish language proficiency and Hispanic cultural studies.",
+    "requiredCourses": [
+      { "code": "SPN 101", "credits": 4, "name": "Elementary Spanish I", "prereqs": [] },
+      { "code": "SPN 102", "credits": 4, "name": "Elementary Spanish II", "prereqs": ["SPN 101"] },
+      { "code": "SPN 201", "credits": 3, "name": "Intermediate Spanish I", "prereqs": ["SPN 102"] }
+    ],
+    "electiveCourses": ["SPN 202", "SPN 301", "SPN 302", "SPN 311", "SPN 321", "SPN 401", "SPN 411"],
+    "electiveCreditsRequired": 7,
+    "notes": "Placement test recommended for students with prior Spanish background."
+  },
+
+  "Statistics": {
+    "code": "STA",
+    "college": "College of Arts and Science",
+    "requiredCredits": 18,
+    "description": "Statistical theory, applied methods, data analysis, and probability.",
+    "requiredCourses": [
+      { "code": "STA 261", "credits": 4, "name": "Statistics", "prereqs": [] },
+      { "code": "STA 301", "credits": 3, "name": "Applied Statistics", "prereqs": ["STA 261"] },
+      { "code": "MTH 151", "credits": 4, "name": "Calculus I", "prereqs": [] }
+    ],
+    "electiveCourses": ["STA 333", "STA 363", "STA 401", "STA 411", "STA 431", "STA 463", "STA 471"],
+    "electiveCreditsRequired": 7,
+    "notes": "Pairs well with Data Science, Economics, Psychology, or any quantitative major."
+  },
+
+  "Strategic Communication": {
+    "code": "STC",
+    "college": "College of Arts and Science",
+    "requiredCredits": 18,
+    "description": "Public relations, advertising, brand communication, and digital media strategy.",
+    "requiredCourses": [
+      { "code": "COM 101", "credits": 3, "name": "Introduction to Communication", "prereqs": [] },
+      { "code": "STC 201", "credits": 3, "name": "Introduction to Strategic Communication", "prereqs": [] },
+      { "code": "STC 301", "credits": 3, "name": "Strategic Communication Campaigns", "prereqs": ["STC 201"] }
+    ],
+    "electiveCourses": ["STC 302", "STC 311", "STC 321", "STC 331", "STC 401", "STC 411", "MKT 291", "MKT 301"],
+    "electiveCreditsRequired": 9,
+    "notes": "Strong complement for Marketing, Business, or Journalism majors."
+  },
+
+  "Theatre": {
+    "code": "THE",
+    "college": "College of Creative Arts",
+    "requiredCredits": 18,
+    "description": "Acting, directing, theatre history, and dramatic literature.",
+    "requiredCourses": [
+      { "code": "THE 101", "credits": 3, "name": "Introduction to Theatre", "prereqs": [] },
+      { "code": "THE 201", "credits": 3, "name": "Acting I", "prereqs": ["THE 101"] }
+    ],
+    "electiveCourses": ["THE 202", "THE 211", "THE 221", "THE 231", "THE 301", "THE 311", "THE 321", "THE 401"],
+    "electiveCreditsRequired": 12,
+    "notes": "At least 6 credits at 300-level or above."
+  },
+
+  "Women's Gender and Sexuality Studies": {
+    "code": "WGS",
+    "college": "College of Arts and Science",
+    "requiredCredits": 18,
+    "description": "Interdisciplinary study of gender, sexuality, feminism, and equity.",
+    "requiredCourses": [
+      { "code": "WGS 201", "credits": 3, "name": "Introduction to Women's, Gender, and Sexuality Studies", "prereqs": [] }
+    ],
+    "electiveCourses": ["WGS 211", "WGS 301", "WGS 311", "WGS 321", "WGS 401", "SOC 321", "PSY 331", "HIS 341"],
+    "electiveCreditsRequired": 15,
+    "notes": "Open to all majors. Interdisciplinary courses from partner departments count."
+  }
+}

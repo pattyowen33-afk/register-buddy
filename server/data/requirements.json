@@ -1,0 +1,253 @@
+{
+  "_comment": "Miami University degree requirements. Add majors by copying the structure below.",
+  "_version": "1.0",
+
+  "miamiPlan": {
+    "label": "Global Miami Plan (Foundation)",
+    "categories": [
+      {
+        "id": "mp_english",
+        "label": "English Composition",
+        "credits": 3,
+        "courses": ["ENG 111", "ENG 112"],
+        "notes": "ENG 111 required; ENG 112 strongly recommended"
+      },
+      {
+        "id": "mp_formal",
+        "label": "Formal Reasoning",
+        "credits": 3,
+        "courses": ["MTH 125", "MTH 151", "MTH 249", "MTH 251", "MTH 222", "MTH 231", "STA 261", "STA 301", "PHI 273", "CSE 174"],
+        "notes": "One course satisfying formal or quantitative reasoning"
+      },
+      {
+        "id": "mp_natural",
+        "label": "Natural Science",
+        "credits": 4,
+        "courses": ["BIO 115", "BIO 116", "BIO 161", "CHM 141", "CHM 142", "PHY 181", "PHY 182", "GLG 111", "GLG 121", "IES 105"],
+        "notes": "One lab science course"
+      },
+      {
+        "id": "mp_social",
+        "label": "Social Science",
+        "credits": 3,
+        "courses": ["PSY 111", "SOC 153", "ECO 101", "ECO 102", "POL 141", "POL 142", "ATH 125", "GEO 201", "MGT 291", "FSW 101"],
+        "notes": "One social science course"
+      },
+      {
+        "id": "mp_humanities",
+        "label": "Humanities & Fine Arts",
+        "credits": 3,
+        "courses": ["ENG 228", "ENG 231", "HST 111", "HST 112", "PHL 131", "PHL 172", "REL 101", "ART 101", "MUS 109", "THE 101", "CLS 101"],
+        "notes": "One humanities or fine arts course"
+      },
+      {
+        "id": "mp_global",
+        "label": "Global Perspectives",
+        "credits": 3,
+        "courses": ["GIC 101", "ITS 101", "LAS 201", "AAA 101", "GHS 201", "PHI 281"],
+        "notes": "One course with global/intercultural focus"
+      },
+      {
+        "id": "mp_writing",
+        "label": "Advanced Writing",
+        "credits": 3,
+        "courses": ["ENG 312", "ENG 313", "ENG 414", "JRN 301", "BUS 302", "ISA 340"],
+        "notes": "Upper-division writing-intensive course"
+      }
+    ]
+  },
+
+  "majors": {
+    "Computer Science": {
+      "totalCredits": 120,
+      "coreCourses": [
+        { "code": "CSE 174",  "label": "Foundations of Programming",        "credits": 3, "year": 1 },
+        { "code": "CSE 201",  "label": "Intro to Software Engineering",     "credits": 3, "year": 1 },
+        { "code": "CSE 271",  "label": "Object-Oriented Programming",       "credits": 3, "year": 1 },
+        { "code": "CSE 274",  "label": "Data Abstraction & Structures",     "credits": 3, "year": 2 },
+        { "code": "CSE 278",  "label": "Systems I",                         "credits": 3, "year": 2 },
+        { "code": "MTH 251",  "label": "Calculus I",                        "credits": 4, "year": 1 },
+        { "code": "MTH 231",  "label": "Discrete Mathematics",               "credits": 3, "year": 2 },
+        { "code": "STA 261",  "label": "Statistics",                         "credits": 4, "year": 2 },
+        { "code": "CSE 374",  "label": "Algorithms I",                       "credits": 3, "year": 3 },
+        { "code": "CSE 381",  "label": "Systems II",                         "credits": 3, "year": 3 },
+        { "code": "CSE 385",  "label": "Database Systems",                   "credits": 3, "year": 3 },
+        { "code": "CSE 448",  "label": "Senior Design I",                    "credits": 2, "year": 4 },
+        { "code": "CSE 449",  "label": "Senior Design II",                   "credits": 2, "year": 4 }
+      ],
+      "electiveGroups": [
+        {
+          "label": "CSE Upper Electives (choose 12 cr)",
+          "minCredits": 12,
+          "courses": ["CSE 383", "CSE 386", "CSE 432", "CSE 433", "CSE 444", "CSE 451", "CSE 465", "CSE 486", "CSE 484"]
+        },
+        {
+          "label": "Math/Science (choose 8 cr)",
+          "minCredits": 8,
+          "courses": ["MTH 252", "MTH 222", "MTH 347", "PHY 181", "PHY 182", "CHM 141", "BIO 115"]
+        }
+      ],
+      "suggestedOrder": {
+        "Freshman": ["CSE 174", "ENG 111", "MTH 251"],
+        "Sophomore": ["CSE 271", "CSE 274", "MTH 231", "STA 261"],
+        "Junior": ["CSE 374", "CSE 381", "CSE 385", "CSE 383"],
+        "Senior": ["CSE 448", "CSE 449"]
+      }
+    },
+
+    "Marketing": {
+      "totalCredits": 124,
+      "coreCourses": [
+        { "code": "ACC 221",  "label": "Financial Accounting",              "credits": 3, "year": 1 },
+        { "code": "ACC 222",  "label": "Managerial Accounting",             "credits": 3, "year": 1 },
+        { "code": "ECO 101",  "label": "Microeconomics",                    "credits": 3, "year": 1 },
+        { "code": "ECO 102",  "label": "Macroeconomics",                    "credits": 3, "year": 1 },
+        { "code": "STA 261",  "label": "Statistics",                         "credits": 4, "year": 2 },
+        { "code": "MGT 291",  "label": "Organizational Behavior",           "credits": 3, "year": 2 },
+        { "code": "MKT 291",  "label": "Marketing Principles",              "credits": 3, "year": 2 },
+        { "code": "FIN 301",  "label": "Corporate Finance",                 "credits": 3, "year": 3 },
+        { "code": "MKT 341",  "label": "Consumer Behavior",                 "credits": 3, "year": 3 },
+        { "code": "MKT 402",  "label": "Marketing Research",                "credits": 3, "year": 3 },
+        { "code": "MKT 431",  "label": "Marketing Strategy",                "credits": 3, "year": 4 }
+      ],
+      "electiveGroups": [
+        {
+          "label": "Marketing Electives (choose 9 cr)",
+          "minCredits": 9,
+          "courses": ["MKT 351", "MKT 361", "MKT 421", "MKT 441", "MKT 451", "MKT 461"]
+        }
+      ],
+      "suggestedOrder": {
+        "Freshman": ["ACC 221", "ECO 101", "ENG 111", "MTH 141"],
+        "Sophomore": ["ACC 222", "ECO 102", "MGT 291", "MKT 291", "STA 261"],
+        "Junior": ["FIN 301", "MKT 341", "MKT 402"],
+        "Senior": ["MKT 431"]
+      }
+    },
+
+    "Psychology": {
+      "totalCredits": 120,
+      "coreCourses": [
+        { "code": "PSY 111",  "label": "Introduction to Psychology",        "credits": 3, "year": 1 },
+        { "code": "PSY 241",  "label": "Research Methods",                  "credits": 4, "year": 2 },
+        { "code": "STA 261",  "label": "Statistics",                         "credits": 4, "year": 1 },
+        { "code": "PSY 251",  "label": "Developmental Psychology",          "credits": 3, "year": 2 },
+        { "code": "PSY 261",  "label": "Social Psychology",                 "credits": 3, "year": 2 },
+        { "code": "PSY 271",  "label": "Cognitive Psychology",              "credits": 3, "year": 3 },
+        { "code": "PSY 321",  "label": "Abnormal Psychology",               "credits": 3, "year": 3 },
+        { "code": "PSY 331",  "label": "Biological Bases of Behavior",      "credits": 3, "year": 3 },
+        { "code": "PSY 491",  "label": "Senior Seminar",                    "credits": 3, "year": 4 }
+      ],
+      "electiveGroups": [
+        {
+          "label": "PSY Upper-Division Electives (choose 12 cr)",
+          "minCredits": 12,
+          "courses": ["PSY 341", "PSY 351", "PSY 361", "PSY 371", "PSY 411", "PSY 421", "PSY 431", "PSY 441"]
+        },
+        {
+          "label": "Related Science (choose 4 cr)",
+          "minCredits": 4,
+          "courses": ["BIO 115", "BIO 116", "CHM 141", "SOC 153", "ATH 125"]
+        }
+      ],
+      "suggestedOrder": {
+        "Freshman": ["PSY 111", "ENG 111", "STA 261", "BIO 115"],
+        "Sophomore": ["PSY 241", "PSY 251", "PSY 261"],
+        "Junior": ["PSY 271", "PSY 321", "PSY 331"],
+        "Senior": ["PSY 491"]
+      }
+    },
+
+    "Biology": {
+      "totalCredits": 120,
+      "coreCourses": [
+        { "code": "BIO 115",  "label": "Biological Concepts: Ecology",      "credits": 4, "year": 1 },
+        { "code": "BIO 116",  "label": "Biological Concepts: Organismal",   "credits": 4, "year": 1 },
+        { "code": "BIO 161",  "label": "Cellular Processes",                 "credits": 4, "year": 1 },
+        { "code": "CHM 141",  "label": "General Chemistry I",               "credits": 4, "year": 1 },
+        { "code": "CHM 142",  "label": "General Chemistry II",              "credits": 4, "year": 2 },
+        { "code": "CHM 241",  "label": "Organic Chemistry I",               "credits": 4, "year": 2 },
+        { "code": "MTH 151",  "label": "Calculus I",                        "credits": 4, "year": 2 },
+        { "code": "PHY 181",  "label": "General Physics I",                 "credits": 4, "year": 3 },
+        { "code": "STA 261",  "label": "Statistics",                         "credits": 4, "year": 2 },
+        { "code": "BIO 305",  "label": "Genetics",                          "credits": 4, "year": 3 },
+        { "code": "BIO 361",  "label": "Cell Biology",                      "credits": 4, "year": 3 }
+      ],
+      "electiveGroups": [
+        {
+          "label": "BIO Upper Electives (choose 12 cr)",
+          "minCredits": 12,
+          "courses": ["BIO 401", "BIO 411", "BIO 421", "BIO 431", "BIO 441", "BIO 451", "MBI 361", "MBI 401"]
+        }
+      ],
+      "suggestedOrder": {
+        "Freshman": ["BIO 115", "BIO 116", "CHM 141", "ENG 111"],
+        "Sophomore": ["BIO 161", "CHM 142", "CHM 241", "STA 261"],
+        "Junior": ["BIO 305", "BIO 361", "MTH 151", "PHY 181"],
+        "Senior": []
+      }
+    },
+
+    "Accounting": {
+      "totalCredits": 124,
+      "coreCourses": [
+        { "code": "ACC 221",  "label": "Financial Accounting",              "credits": 3, "year": 1 },
+        { "code": "ACC 222",  "label": "Managerial Accounting",             "credits": 3, "year": 1 },
+        { "code": "ECO 101",  "label": "Microeconomics",                    "credits": 3, "year": 1 },
+        { "code": "ECO 102",  "label": "Macroeconomics",                    "credits": 3, "year": 1 },
+        { "code": "MGT 291",  "label": "Organizational Behavior",           "credits": 3, "year": 2 },
+        { "code": "FIN 301",  "label": "Corporate Finance",                 "credits": 3, "year": 2 },
+        { "code": "STA 261",  "label": "Statistics",                         "credits": 4, "year": 2 },
+        { "code": "BLS 302",  "label": "Business Law",                      "credits": 3, "year": 2 },
+        { "code": "ACC 311",  "label": "Intermediate Accounting I",         "credits": 3, "year": 3 },
+        { "code": "ACC 312",  "label": "Intermediate Accounting II",        "credits": 3, "year": 3 },
+        { "code": "ACC 321",  "label": "Cost Accounting",                   "credits": 3, "year": 3 },
+        { "code": "ACC 331",  "label": "Tax Accounting",                    "credits": 3, "year": 4 },
+        { "code": "ACC 441",  "label": "Auditing",                          "credits": 3, "year": 4 }
+      ],
+      "electiveGroups": [
+        {
+          "label": "ACC Electives (choose 6 cr)",
+          "minCredits": 6,
+          "courses": ["ACC 341", "ACC 351", "ACC 411", "ACC 421", "ACC 451", "ISA 340"]
+        }
+      ],
+      "suggestedOrder": {
+        "Freshman": ["ACC 221", "ACC 222", "ECO 101", "ENG 111"],
+        "Sophomore": ["ECO 102", "MGT 291", "FIN 301", "STA 261", "BLS 302"],
+        "Junior": ["ACC 311", "ACC 312", "ACC 321"],
+        "Senior": ["ACC 331", "ACC 441"]
+      }
+    },
+
+    "Finance": {
+      "totalCredits": 124,
+      "coreCourses": [
+        { "code": "ACC 221",  "label": "Financial Accounting",              "credits": 3, "year": 1 },
+        { "code": "ACC 222",  "label": "Managerial Accounting",             "credits": 3, "year": 1 },
+        { "code": "ECO 101",  "label": "Microeconomics",                    "credits": 3, "year": 1 },
+        { "code": "ECO 102",  "label": "Macroeconomics",                    "credits": 3, "year": 1 },
+        { "code": "MTH 151",  "label": "Calculus I",                        "credits": 4, "year": 1 },
+        { "code": "STA 261",  "label": "Statistics",                         "credits": 4, "year": 2 },
+        { "code": "MGT 291",  "label": "Organizational Behavior",           "credits": 3, "year": 2 },
+        { "code": "FIN 301",  "label": "Corporate Finance",                 "credits": 3, "year": 2 },
+        { "code": "FIN 302",  "label": "Investments",                       "credits": 3, "year": 3 },
+        { "code": "FIN 411",  "label": "Financial Markets",                 "credits": 3, "year": 3 },
+        { "code": "FIN 421",  "label": "Advanced Corporate Finance",        "credits": 3, "year": 4 }
+      ],
+      "electiveGroups": [
+        {
+          "label": "Finance Electives (choose 9 cr)",
+          "minCredits": 9,
+          "courses": ["FIN 312", "FIN 341", "FIN 351", "FIN 361", "FIN 431", "FIN 441", "FIN 461"]
+        }
+      ],
+      "suggestedOrder": {
+        "Freshman": ["ACC 221", "ECO 101", "MTH 151", "ENG 111"],
+        "Sophomore": ["ACC 222", "ECO 102", "MGT 291", "FIN 301", "STA 261"],
+        "Junior": ["FIN 302", "FIN 411"],
+        "Senior": ["FIN 421"]
+      }
+    }
+  }
+}

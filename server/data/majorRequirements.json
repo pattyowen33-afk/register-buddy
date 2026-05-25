@@ -1,0 +1,6031 @@
+{
+  "_comment": "Miami University Oxford \u00e2\u20ac\u201d undergraduate major requirements. Source: MU Bulletin 2025-2026 (bulletin.miamioh.edu). coreCourses = explicitly required; electiveGroups = pick-N-from-list.",
+  "_version": "3.0",
+  "_source": "bulletin.miamioh.edu 2025-2026",
+  "Computer Science": {
+    "code": "CSE",
+    "college": "College of Engineering and Computing",
+    "degree": "BS",
+    "totalCredits": 128,
+    "majorCredits": 55,
+    "description": "Prepares students for software engineering, systems, AI/ML, and computing research careers.",
+    "coreCourses": [
+      {
+        "code": "CEC 111",
+        "credits": 2,
+        "name": "Imagination, Ingenuity and Impact I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CEC 112",
+        "credits": 2,
+        "name": "Imagination, Ingenuity and Impact II",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "CEC 111"
+        ]
+      },
+      {
+        "code": "CSE 174",
+        "credits": 3,
+        "name": "Fundamentals of Problem Solving & Programming",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CYB 134",
+        "credits": 3,
+        "name": "Introduction to Cybersecurity",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "MTH 151",
+        "credits": 4,
+        "name": "Calculus I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MTH 231",
+        "credits": 3,
+        "name": "Elements of Discrete Mathematics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "MTH 151"
+        ]
+      },
+      {
+        "code": "STA 261",
+        "credits": 4,
+        "name": "Statistics",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CSE 201",
+        "credits": 3,
+        "name": "Introduction to Software Engineering",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "CSE 174"
+        ]
+      },
+      {
+        "code": "CSE 271",
+        "credits": 3,
+        "name": "Object-Oriented Programming",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "CSE 174"
+        ]
+      },
+      {
+        "code": "CSE 274",
+        "credits": 3,
+        "name": "Data Abstraction and Data Structures",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "CSE 271"
+        ]
+      },
+      {
+        "code": "CSE 278",
+        "credits": 3,
+        "name": "Systems I: Introduction to Systems Programming",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "CSE 271"
+        ]
+      },
+      {
+        "code": "CSE 374",
+        "credits": 3,
+        "name": "Algorithms I",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "CSE 274"
+        ]
+      },
+      {
+        "code": "CSE 381",
+        "credits": 3,
+        "name": "Systems II: Operating Systems",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "CSE 278"
+        ]
+      },
+      {
+        "code": "CSE 383",
+        "credits": 3,
+        "name": "Web Application Programming",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "CSE 274"
+        ]
+      },
+      {
+        "code": "CSE 465",
+        "credits": 3,
+        "name": "Comparative Programming Languages",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "CSE 274"
+        ]
+      },
+      {
+        "code": "CSE 448",
+        "credits": 2,
+        "name": "Senior Design Project I",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": [
+          "CSE 383"
+        ]
+      },
+      {
+        "code": "CSE 449",
+        "credits": 2,
+        "name": "Senior Design Project II",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "CSE 448"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "CSE Technical Electives",
+        "description": "At least 15 credit hours from approved CSE 300\u00e2\u20ac\u201c500 level courses.",
+        "requiredCredits": 15,
+        "courses": [
+          "CSE 302",
+          "CSE 382",
+          "CSE 385",
+          "CSE 386",
+          "CSE 389",
+          "CSE 401",
+          "CSE 432",
+          "CSE 433",
+          "CSE 434",
+          "CSE 443",
+          "CSE 444",
+          "CSE 451",
+          "CSE 468",
+          "CSE 470",
+          "CSE 473",
+          "CSE 474",
+          "CSE 484",
+          "CSE 485",
+          "CSE 486",
+          "CSE 488",
+          "CSE 489"
+        ]
+      },
+      {
+        "name": "Math / Statistics Electives",
+        "description": "At least 9 credit hours from approved MTH/STA courses.",
+        "requiredCredits": 9,
+        "courses": [
+          "MTH 222",
+          "MTH 251",
+          "MTH 252",
+          "MTH 331",
+          "MTH 347",
+          "MTH 421",
+          "MTH 432",
+          "MTH 437",
+          "STA 301",
+          "STA 333",
+          "STA 363",
+          "STA 401",
+          "STA 463"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "CEC 111",
+        "CSE 174",
+        "MTH 151"
+      ],
+      "Freshman Spring": [
+        "CEC 112",
+        "CYB 134",
+        "MTH 231"
+      ],
+      "Sophomore Fall": [
+        "CSE 201",
+        "CSE 271",
+        "STA 261"
+      ],
+      "Sophomore Spring": [
+        "CSE 274",
+        "CSE 278"
+      ],
+      "Junior Fall": [
+        "CSE 374",
+        "CSE 381"
+      ],
+      "Junior Spring": [
+        "CSE 383",
+        "CSE 465"
+      ],
+      "Senior Fall": [
+        "CSE 448",
+        "CSE Elective"
+      ],
+      "Senior Spring": [
+        "CSE 449",
+        "CSE Elective"
+      ]
+    }
+  },
+  "Software Engineering": {
+    "code": "SFW",
+    "college": "College of Engineering and Computing",
+    "degree": "BS",
+    "totalCredits": 128,
+    "majorCredits": 52,
+    "description": "Applies engineering principles to software design, requirements, testing, and project management.",
+    "coreCourses": [
+      {
+        "code": "CEC 111",
+        "credits": 2,
+        "name": "Imagination, Ingenuity and Impact I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CEC 112",
+        "credits": 2,
+        "name": "Imagination, Ingenuity and Impact II",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "CEC 111"
+        ]
+      },
+      {
+        "code": "CSE 174",
+        "credits": 3,
+        "name": "Fundamentals of Problem Solving & Programming",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CYB 134",
+        "credits": 3,
+        "name": "Introduction to Cybersecurity",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "MTH 151",
+        "credits": 4,
+        "name": "Calculus I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MTH 231",
+        "credits": 3,
+        "name": "Elements of Discrete Mathematics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "MTH 151"
+        ]
+      },
+      {
+        "code": "STA 261",
+        "credits": 4,
+        "name": "Statistics",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CSE 201",
+        "credits": 3,
+        "name": "Introduction to Software Engineering",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "CSE 174"
+        ]
+      },
+      {
+        "code": "CSE 202",
+        "credits": 3,
+        "name": "Software Requirements",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "CSE 174"
+        ]
+      },
+      {
+        "code": "CSE 212",
+        "credits": 3,
+        "name": "Software Engineering for UX Design",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "CSE 201"
+        ]
+      },
+      {
+        "code": "CSE 271",
+        "credits": 3,
+        "name": "Object-Oriented Programming",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "CSE 174"
+        ]
+      },
+      {
+        "code": "CSE 274",
+        "credits": 3,
+        "name": "Data Abstraction and Data Structures",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "CSE 271"
+        ]
+      },
+      {
+        "code": "CSE 278",
+        "credits": 3,
+        "name": "Systems I: Introduction to Systems Programming",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "CSE 271"
+        ]
+      },
+      {
+        "code": "CSE 301",
+        "credits": 3,
+        "name": "Software Architecture and Design",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "CSE 271"
+        ]
+      },
+      {
+        "code": "CSE 302",
+        "credits": 3,
+        "name": "Software Construction",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "CSE 274"
+        ]
+      },
+      {
+        "code": "CSE 374",
+        "credits": 3,
+        "name": "Algorithms I",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "CSE 274"
+        ]
+      },
+      {
+        "code": "CSE 383",
+        "credits": 3,
+        "name": "Web Application Programming",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "CSE 274"
+        ]
+      },
+      {
+        "code": "CSE 401",
+        "credits": 3,
+        "name": "Software Quality Assurance and Testing",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": [
+          "CSE 301"
+        ]
+      },
+      {
+        "code": "CSE 448",
+        "credits": 2,
+        "name": "Senior Design Project I",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": [
+          "CSE 374"
+        ]
+      },
+      {
+        "code": "CSE 449",
+        "credits": 2,
+        "name": "Senior Design Project II",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "CSE 448"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "SFW / CSE Electives",
+        "description": "At least 12 credit hours from approved CSE/CYB 300\u00e2\u20ac\u201c500 level courses.",
+        "requiredCredits": 12,
+        "courses": [
+          "CSE 385",
+          "CSE 432",
+          "CSE 433",
+          "CSE 443",
+          "CSE 451",
+          "CSE 465",
+          "CSE 468",
+          "CSE 470",
+          "CSE 473",
+          "CSE 484",
+          "CSE 486",
+          "CSE 488",
+          "CYB 334"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "CEC 111",
+        "CSE 174",
+        "MTH 151"
+      ],
+      "Freshman Spring": [
+        "CEC 112",
+        "CYB 134",
+        "MTH 231"
+      ],
+      "Sophomore Fall": [
+        "CSE 201",
+        "CSE 202",
+        "STA 261"
+      ],
+      "Sophomore Spring": [
+        "CSE 212",
+        "CSE 271"
+      ],
+      "Junior Fall": [
+        "CSE 274",
+        "CSE 278",
+        "CSE 301"
+      ],
+      "Junior Spring": [
+        "CSE 302",
+        "CSE 374",
+        "CSE 383"
+      ],
+      "Senior Fall": [
+        "CSE 401",
+        "CSE 448"
+      ],
+      "Senior Spring": [
+        "CSE 449",
+        "CSE Elective"
+      ]
+    }
+  },
+  "Mechanical Engineering": {
+    "code": "MME",
+    "college": "College of Engineering and Computing",
+    "degree": "BS",
+    "totalCredits": 127,
+    "majorCredits": 60,
+    "description": "Covers thermodynamics, mechanics, materials, design, manufacturing, fluid mechanics, and controls.",
+    "coreCourses": [
+      {
+        "code": "CEC 111",
+        "credits": 2,
+        "name": "Imagination, Ingenuity and Impact I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CEC 112",
+        "credits": 2,
+        "name": "Imagination, Ingenuity and Impact II",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "CEC 111"
+        ]
+      },
+      {
+        "code": "MTH 151",
+        "credits": 4,
+        "name": "Calculus I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MTH 251",
+        "credits": 4,
+        "name": "Calculus II",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "MTH 151"
+        ]
+      },
+      {
+        "code": "MTH 252",
+        "credits": 4,
+        "name": "Calculus III",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "MTH 251"
+        ]
+      },
+      {
+        "code": "MTH 246",
+        "credits": 4,
+        "name": "Linear Algebra and Differential Equations for Engineers",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "MTH 251"
+        ]
+      },
+      {
+        "code": "PHY 181",
+        "credits": 4,
+        "name": "General Physics I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": [
+          "MTH 151"
+        ]
+      },
+      {
+        "code": "PHY 183",
+        "credits": 1,
+        "name": "General Physics I Laboratory",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "PHY 182",
+        "credits": 4,
+        "name": "General Physics II",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "PHY 181"
+        ]
+      },
+      {
+        "code": "CHM 141",
+        "credits": 3,
+        "name": "College Chemistry I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CHM 144",
+        "credits": 2,
+        "name": "College Chemistry I Laboratory",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "STA 261",
+        "credits": 4,
+        "name": "Statistics",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ECE 205",
+        "credits": 4,
+        "name": "Electric Circuit Analysis I",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "PHY 182"
+        ]
+      },
+      {
+        "code": "MME 201",
+        "credits": 2,
+        "name": "Modeling and Design in Engineering",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "CEC 112"
+        ]
+      },
+      {
+        "code": "MME 202",
+        "credits": 3,
+        "name": "Numerical Methods in Engineering",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "MTH 151",
+          "CSE 174"
+        ]
+      },
+      {
+        "code": "MME 211",
+        "credits": 3,
+        "name": "Static Modeling of Mechanical Systems",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "PHY 181"
+        ]
+      },
+      {
+        "code": "MME 223",
+        "credits": 3,
+        "name": "Engineering Materials",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "CHM 141"
+        ]
+      },
+      {
+        "code": "MME 231",
+        "credits": 3,
+        "name": "Manufacturing Processes",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "MME 223"
+        ]
+      },
+      {
+        "code": "MME 305",
+        "credits": 3,
+        "name": "Measurements and Instrumentation",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "MME 211"
+        ]
+      },
+      {
+        "code": "MME 311",
+        "credits": 3,
+        "name": "Dynamic Modeling of Mechanical Systems",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "MME 211",
+          "MTH 246"
+        ]
+      },
+      {
+        "code": "MME 312",
+        "credits": 3,
+        "name": "Mechanics of Materials",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "MME 211"
+        ]
+      },
+      {
+        "code": "MME 313",
+        "credits": 3,
+        "name": "Fluid Mechanics",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "MME 311"
+        ]
+      },
+      {
+        "code": "MME 314",
+        "credits": 3,
+        "name": "Engineering Thermodynamics",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "PHY 182",
+          "MTH 246"
+        ]
+      },
+      {
+        "code": "MME 321",
+        "credits": 3,
+        "name": "System Modeling, Analysis, and Control",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "MME 311"
+        ]
+      },
+      {
+        "code": "MME 341",
+        "credits": 3,
+        "name": "Engineering Economics",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MME 403",
+        "credits": 3,
+        "name": "Heat Transfer",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": [
+          "MME 313",
+          "MME 314"
+        ]
+      },
+      {
+        "code": "MME 411",
+        "credits": 3,
+        "name": "Machine and Tool Design",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": [
+          "MME 312"
+        ]
+      },
+      {
+        "code": "MME 448",
+        "credits": 2,
+        "name": "Senior Design Project I",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": [
+          "MME 411",
+          "MME 231"
+        ]
+      },
+      {
+        "code": "MME 449",
+        "credits": 2,
+        "name": "Senior Design Project II",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "MME 448"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "MME Technical Track Electives",
+        "description": "6 credit hours from approved MME track courses.",
+        "requiredCredits": 6,
+        "courses": [
+          "MME 405",
+          "MME 412",
+          "MME 415",
+          "MME 421",
+          "MME 431",
+          "MME 441",
+          "MME 451",
+          "MME 461",
+          "MME 465",
+          "MME 471",
+          "MME 481"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "CEC 111",
+        "MTH 151",
+        "PHY 181",
+        "PHY 183",
+        "CHM 141",
+        "CHM 144"
+      ],
+      "Freshman Spring": [
+        "CEC 112",
+        "MTH 251",
+        "PHY 182"
+      ],
+      "Sophomore Fall": [
+        "MTH 252",
+        "ECE 205",
+        "MME 201",
+        "MME 211",
+        "MME 223"
+      ],
+      "Sophomore Spring": [
+        "MTH 246",
+        "MME 202",
+        "STA 261"
+      ],
+      "Junior Fall": [
+        "MME 231",
+        "MME 305",
+        "MME 311",
+        "MME 312"
+      ],
+      "Junior Spring": [
+        "MME 313",
+        "MME 314",
+        "MME 321"
+      ],
+      "Senior Fall": [
+        "MME 341",
+        "MME 403",
+        "MME 411",
+        "MME 448"
+      ],
+      "Senior Spring": [
+        "MME 449",
+        "MME Track Elective"
+      ]
+    }
+  },
+  "Electrical Engineering": {
+    "code": "ECE",
+    "college": "College of Engineering and Computing",
+    "degree": "BS",
+    "totalCredits": 128,
+    "majorCredits": 60,
+    "description": "Covers circuits, signals, electromagnetics, digital systems, power, and embedded computing.",
+    "coreCourses": [
+      {
+        "code": "CEC 111",
+        "credits": 2,
+        "name": "Imagination, Ingenuity and Impact I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CEC 112",
+        "credits": 2,
+        "name": "Imagination, Ingenuity and Impact II",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "CEC 111"
+        ]
+      },
+      {
+        "code": "MTH 151",
+        "credits": 4,
+        "name": "Calculus I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MTH 251",
+        "credits": 4,
+        "name": "Calculus II",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "MTH 151"
+        ]
+      },
+      {
+        "code": "MTH 252",
+        "credits": 4,
+        "name": "Calculus III",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "MTH 251"
+        ]
+      },
+      {
+        "code": "MTH 246",
+        "credits": 4,
+        "name": "Linear Algebra and Differential Equations for Engineers",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "MTH 251"
+        ]
+      },
+      {
+        "code": "PHY 181",
+        "credits": 4,
+        "name": "General Physics I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": [
+          "MTH 151"
+        ]
+      },
+      {
+        "code": "PHY 183",
+        "credits": 1,
+        "name": "General Physics I Laboratory",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "PHY 182",
+        "credits": 4,
+        "name": "General Physics II",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "PHY 181"
+        ]
+      },
+      {
+        "code": "CSE 174",
+        "credits": 3,
+        "name": "Fundamentals of Problem Solving & Programming",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ECE 205",
+        "credits": 4,
+        "name": "Electric Circuit Analysis I",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "PHY 182"
+        ]
+      },
+      {
+        "code": "ECE 206",
+        "credits": 4,
+        "name": "Electric Circuit Analysis II",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "ECE 205"
+        ]
+      },
+      {
+        "code": "ECE 287",
+        "credits": 3,
+        "name": "Digital Systems Design",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "CSE 174"
+        ]
+      },
+      {
+        "code": "ECE 301",
+        "credits": 3,
+        "name": "Signals and Systems",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "ECE 206",
+          "MTH 246"
+        ]
+      },
+      {
+        "code": "ECE 321",
+        "credits": 3,
+        "name": "Electromagnetic Fields",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "PHY 182",
+          "MTH 252"
+        ]
+      },
+      {
+        "code": "ECE 345",
+        "credits": 3,
+        "name": "Probability, Statistics, and Random Processes",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "MTH 246"
+        ]
+      },
+      {
+        "code": "ECE 387",
+        "credits": 3,
+        "name": "Embedded Systems Design",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "ECE 287"
+        ]
+      },
+      {
+        "code": "ECE 491",
+        "credits": 2,
+        "name": "Senior Design Project I",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": [
+          "ECE 387"
+        ]
+      },
+      {
+        "code": "ECE 492",
+        "credits": 2,
+        "name": "Senior Design Project II",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "ECE 491"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "ECE Technical Electives",
+        "description": "At least 9 credit hours from 400-level ECE courses.",
+        "requiredCredits": 9,
+        "courses": [
+          "ECE 401",
+          "ECE 411",
+          "ECE 421",
+          "ECE 431",
+          "ECE 441",
+          "ECE 451",
+          "ECE 461",
+          "ECE 471",
+          "ECE 481",
+          "ECE 487"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "CEC 111",
+        "MTH 151",
+        "PHY 181",
+        "PHY 183"
+      ],
+      "Freshman Spring": [
+        "CEC 112",
+        "CSE 174",
+        "MTH 251",
+        "PHY 182"
+      ],
+      "Sophomore Fall": [
+        "MTH 252",
+        "ECE 205"
+      ],
+      "Sophomore Spring": [
+        "MTH 246",
+        "ECE 206",
+        "ECE 287"
+      ],
+      "Junior Fall": [
+        "ECE 301",
+        "ECE 321"
+      ],
+      "Junior Spring": [
+        "ECE 345",
+        "ECE 387"
+      ],
+      "Senior Fall": [
+        "ECE 491",
+        "ECE Elective"
+      ],
+      "Senior Spring": [
+        "ECE 492",
+        "ECE Elective"
+      ]
+    }
+  },
+  "Finance": {
+    "code": "FIN",
+    "college": "Farmer School of Business",
+    "degree": "BS",
+    "totalCredits": 128,
+    "majorCredits": 58,
+    "description": "Covers corporate finance, investments, financial markets, and modeling.",
+    "coreCourses": [
+      {
+        "code": "ACC 221",
+        "credits": 3,
+        "name": "Introduction to Financial Accounting",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ACC 222",
+        "credits": 3,
+        "name": "Introduction to Managerial Accounting",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "ACC 221"
+        ]
+      },
+      {
+        "code": "BUS 101",
+        "credits": 2,
+        "name": "Foundations of Business",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "BUS 102",
+        "credits": 2,
+        "name": "Foundations of Business Communication",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "BUS 104",
+        "credits": 2,
+        "name": "Introduction to Computational Thinking for Business",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CSE 148",
+        "credits": 3,
+        "name": "Business Computing",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ECO 201",
+        "credits": 3,
+        "name": "Principles of Microeconomics",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ECO 202",
+        "credits": 3,
+        "name": "Principles of Macroeconomics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ISA 125",
+        "credits": 3,
+        "name": "Introduction to Business Statistics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ISA 225",
+        "credits": 3,
+        "name": "Principles of Business Analytics",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "ISA 125"
+        ]
+      },
+      {
+        "code": "ISA 235",
+        "credits": 3,
+        "name": "Information Technology and the Intelligent Enterprise",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MGT 291",
+        "credits": 3,
+        "name": "Introduction to Management and Leadership",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MGT 295",
+        "credits": 3,
+        "name": "Introduction to Operations and Supply Chain",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "MKT 291",
+        "credits": 3,
+        "name": "Principles of Marketing",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "BLS 342",
+        "credits": 3,
+        "name": "Legal Environment of Business",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "FIN 301",
+        "credits": 3,
+        "name": "Introduction to Business Finance",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "ACC 221"
+        ]
+      },
+      {
+        "code": "MTH 141",
+        "credits": 4,
+        "name": "Business Calculus",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ACC 321",
+        "credits": 3,
+        "name": "Intermediate Financial Accounting",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "ACC 222"
+        ]
+      },
+      {
+        "code": "ECO 301",
+        "credits": 3,
+        "name": "Money and Banking",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "ECO 201"
+        ]
+      },
+      {
+        "code": "FIN 303",
+        "credits": 3,
+        "name": "Financial Principles and Modeling with Excel",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "FIN 301"
+        ]
+      },
+      {
+        "code": "FIN 381",
+        "credits": 3,
+        "name": "Intermediate Financial Management",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "FIN 303"
+        ]
+      },
+      {
+        "code": "FIN 401",
+        "credits": 3,
+        "name": "Principles of Investments and Security Markets",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": [
+          "FIN 381"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "FIN Upper-Level Electives",
+        "description": "At least 9 credit hours from approved FIN 300+ courses.",
+        "requiredCredits": 9,
+        "courses": [
+          "FIN 351",
+          "FIN 361",
+          "FIN 371",
+          "FIN 381",
+          "FIN 402",
+          "FIN 403",
+          "FIN 408",
+          "FIN 417",
+          "FIN 421",
+          "FIN 431",
+          "FIN 451"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "ACC 221",
+        "BUS 101",
+        "BUS 102",
+        "BUS 104",
+        "ECO 201",
+        "MTH 141"
+      ],
+      "Freshman Spring": [
+        "ACC 222",
+        "CSE 148",
+        "ECO 202",
+        "ISA 125"
+      ],
+      "Sophomore Fall": [
+        "ISA 225",
+        "ISA 235",
+        "MGT 291"
+      ],
+      "Sophomore Spring": [
+        "BLS 342",
+        "FIN 301",
+        "MGT 295",
+        "MKT 291"
+      ],
+      "Junior Fall": [
+        "ACC 321",
+        "ECO 301",
+        "FIN 303"
+      ],
+      "Junior Spring": [
+        "FIN 381",
+        "FIN Elective"
+      ],
+      "Senior Fall": [
+        "FIN 401",
+        "FIN Elective"
+      ],
+      "Senior Spring": [
+        "FIN Elective"
+      ]
+    }
+  },
+  "Marketing": {
+    "code": "MKT",
+    "college": "Farmer School of Business",
+    "degree": "BS",
+    "totalCredits": 128,
+    "majorCredits": 57,
+    "description": "Develops skills in consumer insights, brand strategy, marketing analytics, and integrated communications.",
+    "coreCourses": [
+      {
+        "code": "ACC 221",
+        "credits": 3,
+        "name": "Introduction to Financial Accounting",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ACC 222",
+        "credits": 3,
+        "name": "Introduction to Managerial Accounting",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "ACC 221"
+        ]
+      },
+      {
+        "code": "BUS 101",
+        "credits": 2,
+        "name": "Foundations of Business",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "BUS 102",
+        "credits": 2,
+        "name": "Foundations of Business Communication",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "BUS 104",
+        "credits": 2,
+        "name": "Introduction to Computational Thinking for Business",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CSE 148",
+        "credits": 3,
+        "name": "Business Computing",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ECO 201",
+        "credits": 3,
+        "name": "Principles of Microeconomics",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ECO 202",
+        "credits": 3,
+        "name": "Principles of Macroeconomics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ISA 125",
+        "credits": 3,
+        "name": "Introduction to Business Statistics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ISA 225",
+        "credits": 3,
+        "name": "Principles of Business Analytics",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "ISA 125"
+        ]
+      },
+      {
+        "code": "ISA 235",
+        "credits": 3,
+        "name": "Information Technology and the Intelligent Enterprise",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MGT 291",
+        "credits": 3,
+        "name": "Introduction to Management and Leadership",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MGT 295",
+        "credits": 3,
+        "name": "Introduction to Operations and Supply Chain",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "MKT 291",
+        "credits": 3,
+        "name": "Principles of Marketing",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "BLS 342",
+        "credits": 3,
+        "name": "Legal Environment of Business",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "FIN 301",
+        "credits": 3,
+        "name": "Introduction to Business Finance",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "ACC 221"
+        ]
+      },
+      {
+        "code": "MTH 141",
+        "credits": 4,
+        "name": "Business Calculus",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MKT 315",
+        "credits": 3,
+        "name": "Professional Selling",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "MKT 291"
+        ]
+      },
+      {
+        "code": "MKT 325",
+        "credits": 3,
+        "name": "Developing Customer Insights",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "MKT 291"
+        ]
+      },
+      {
+        "code": "MKT 335",
+        "credits": 3,
+        "name": "Analytical Research and Reasoning for Marketers",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "MKT 291",
+          "ISA 125"
+        ]
+      },
+      {
+        "code": "MKT 345",
+        "credits": 3,
+        "name": "Building and Managing Strong Brands",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "MKT 291"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "MKT Electives",
+        "description": "At least 10 credit hours from approved MKT/IMS 300+ level courses including one capstone.",
+        "requiredCredits": 10,
+        "courses": [
+          "MKT 392",
+          "MKT 395",
+          "MKT 412",
+          "MKT 415",
+          "MKT 418",
+          "MKT 419",
+          "MKT 442",
+          "MKT 461",
+          "MKT 475",
+          "MKT 490",
+          "MKT 495",
+          "IMS 392",
+          "IMS 418",
+          "IMS 419",
+          "IMS 440"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "ACC 221",
+        "BUS 101",
+        "BUS 102",
+        "BUS 104",
+        "ECO 201",
+        "MTH 141"
+      ],
+      "Freshman Spring": [
+        "ACC 222",
+        "CSE 148",
+        "ECO 202",
+        "ISA 125"
+      ],
+      "Sophomore Fall": [
+        "ISA 225",
+        "ISA 235",
+        "MGT 291"
+      ],
+      "Sophomore Spring": [
+        "BLS 342",
+        "FIN 301",
+        "MGT 295",
+        "MKT 291"
+      ],
+      "Junior Fall": [
+        "MKT 315",
+        "MKT 325"
+      ],
+      "Junior Spring": [
+        "MKT 335",
+        "MKT 345"
+      ],
+      "Senior Fall": [
+        "MKT Elective"
+      ],
+      "Senior Spring": [
+        "MKT Capstone",
+        "MKT Elective"
+      ]
+    }
+  },
+  "Information Systems and Cybersecurity Management": {
+    "code": "ISA",
+    "college": "Farmer School of Business",
+    "degree": "BS",
+    "totalCredits": 128,
+    "majorCredits": 58,
+    "description": "Bridges business strategy and data technology; prepares students for data analytics, IT management, and cybersecurity leadership.",
+    "coreCourses": [
+      {
+        "code": "ACC 221",
+        "credits": 3,
+        "name": "Introduction to Financial Accounting",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ACC 222",
+        "credits": 3,
+        "name": "Introduction to Managerial Accounting",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "ACC 221"
+        ]
+      },
+      {
+        "code": "BUS 101",
+        "credits": 2,
+        "name": "Foundations of Business",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "BUS 102",
+        "credits": 2,
+        "name": "Foundations of Business Communication",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "BUS 104",
+        "credits": 2,
+        "name": "Introduction to Computational Thinking for Business",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CSE 148",
+        "credits": 3,
+        "name": "Business Computing",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ECO 201",
+        "credits": 3,
+        "name": "Principles of Microeconomics",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ECO 202",
+        "credits": 3,
+        "name": "Principles of Macroeconomics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ISA 125",
+        "credits": 3,
+        "name": "Introduction to Business Statistics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ISA 225",
+        "credits": 3,
+        "name": "Principles of Business Analytics",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "ISA 125"
+        ]
+      },
+      {
+        "code": "ISA 235",
+        "credits": 3,
+        "name": "Information Technology and the Intelligent Enterprise",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MGT 291",
+        "credits": 3,
+        "name": "Introduction to Management and Leadership",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MGT 295",
+        "credits": 3,
+        "name": "Introduction to Operations and Supply Chain",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "MKT 291",
+        "credits": 3,
+        "name": "Principles of Marketing",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "BLS 342",
+        "credits": 3,
+        "name": "Legal Environment of Business",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "FIN 301",
+        "credits": 3,
+        "name": "Introduction to Business Finance",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "ACC 221"
+        ]
+      },
+      {
+        "code": "MTH 141",
+        "credits": 4,
+        "name": "Business Calculus",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ISA 301",
+        "credits": 3,
+        "name": "Business Data Communications and Security",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "ISA 235"
+        ]
+      },
+      {
+        "code": "ISA 345",
+        "credits": 3,
+        "name": "Database Systems and Data Warehousing",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "ISA 225"
+        ]
+      },
+      {
+        "code": "ISA 381",
+        "credits": 3,
+        "name": "Concepts in Business Programming",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "CSE 148"
+        ]
+      },
+      {
+        "code": "ISA 387",
+        "credits": 3,
+        "name": "Designing Business Systems",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "ISA 235"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "ISA Concentration Courses",
+        "description": "12 credit hours from your chosen concentration (IS or Cybersecurity Management).",
+        "requiredCredits": 12,
+        "courses": [
+          "ISA 305",
+          "ISA 395",
+          "ISA 405",
+          "ISA 406",
+          "ISA 411",
+          "ISA 419",
+          "ISA 421",
+          "ISA 441",
+          "ISA 451",
+          "ISA 495"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "ACC 221",
+        "BUS 101",
+        "BUS 102",
+        "BUS 104",
+        "ECO 201",
+        "MTH 141"
+      ],
+      "Freshman Spring": [
+        "ACC 222",
+        "CSE 148",
+        "ECO 202",
+        "ISA 125"
+      ],
+      "Sophomore Fall": [
+        "ISA 225",
+        "ISA 235",
+        "MGT 291"
+      ],
+      "Sophomore Spring": [
+        "BLS 342",
+        "FIN 301",
+        "MGT 295",
+        "MKT 291"
+      ],
+      "Junior Fall": [
+        "ISA 301",
+        "ISA 345"
+      ],
+      "Junior Spring": [
+        "ISA 381",
+        "ISA 387"
+      ],
+      "Senior Fall": [
+        "ISA Concentration"
+      ],
+      "Senior Spring": [
+        "ISA Concentration",
+        "ISA 495"
+      ]
+    }
+  },
+  "Human Capital Management and Leadership": {
+    "code": "HCM",
+    "college": "Farmer School of Business",
+    "degree": "BS",
+    "totalCredits": 128,
+    "majorCredits": 55,
+    "description": "Prepares students for careers in human resources, organizational development, leadership, and talent management.",
+    "coreCourses": [
+      {
+        "code": "ACC 221",
+        "credits": 3,
+        "name": "Introduction to Financial Accounting",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ACC 222",
+        "credits": 3,
+        "name": "Introduction to Managerial Accounting",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "ACC 221"
+        ]
+      },
+      {
+        "code": "BUS 101",
+        "credits": 2,
+        "name": "Foundations of Business",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "BUS 102",
+        "credits": 2,
+        "name": "Foundations of Business Communication",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "BUS 104",
+        "credits": 2,
+        "name": "Introduction to Computational Thinking for Business",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CSE 148",
+        "credits": 3,
+        "name": "Business Computing",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ECO 201",
+        "credits": 3,
+        "name": "Principles of Microeconomics",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ECO 202",
+        "credits": 3,
+        "name": "Principles of Macroeconomics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ISA 125",
+        "credits": 3,
+        "name": "Introduction to Business Statistics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ISA 225",
+        "credits": 3,
+        "name": "Principles of Business Analytics",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "ISA 125"
+        ]
+      },
+      {
+        "code": "ISA 235",
+        "credits": 3,
+        "name": "Information Technology and the Intelligent Enterprise",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MGT 291",
+        "credits": 3,
+        "name": "Introduction to Management and Leadership",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MGT 295",
+        "credits": 3,
+        "name": "Introduction to Operations and Supply Chain",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "MKT 291",
+        "credits": 3,
+        "name": "Principles of Marketing",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "BLS 342",
+        "credits": 3,
+        "name": "Legal Environment of Business",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "FIN 301",
+        "credits": 3,
+        "name": "Introduction to Business Finance",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "ACC 221"
+        ]
+      },
+      {
+        "code": "MTH 141",
+        "credits": 4,
+        "name": "Business Calculus",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MGT 303",
+        "credits": 3,
+        "name": "Staffing Organizations",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "MGT 291"
+        ]
+      },
+      {
+        "code": "MGT 341",
+        "credits": 3,
+        "name": "Leading Organizations",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "MGT 291"
+        ]
+      },
+      {
+        "code": "MGT 410",
+        "credits": 3,
+        "name": "Total Rewards and Performance Management",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "MGT 303"
+        ]
+      },
+      {
+        "code": "MGT 420",
+        "credits": 3,
+        "name": "Developing Talent and Teams",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "MGT 291"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "HCM Capstone and Electives",
+        "description": "At least 9 credit hours including one senior capstone experience.",
+        "requiredCredits": 9,
+        "courses": [
+          "MGT 430",
+          "MGT 440",
+          "MGT 450",
+          "MGT 460",
+          "MGT 491",
+          "MGT 495"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "ACC 221",
+        "BUS 101",
+        "BUS 102",
+        "BUS 104",
+        "ECO 201",
+        "MTH 141"
+      ],
+      "Freshman Spring": [
+        "ACC 222",
+        "CSE 148",
+        "ECO 202",
+        "ISA 125"
+      ],
+      "Sophomore Fall": [
+        "ISA 225",
+        "ISA 235",
+        "MGT 291"
+      ],
+      "Sophomore Spring": [
+        "BLS 342",
+        "FIN 301",
+        "MGT 295",
+        "MKT 291"
+      ],
+      "Junior Fall": [
+        "MGT 303",
+        "MGT 341"
+      ],
+      "Junior Spring": [
+        "MGT 410",
+        "MGT 420"
+      ],
+      "Senior Fall": [
+        "MGT Elective"
+      ],
+      "Senior Spring": [
+        "MGT Capstone"
+      ]
+    }
+  },
+  "Psychology": {
+    "code": "PSY",
+    "college": "College of Arts and Science",
+    "degree": "BA",
+    "totalCredits": 128,
+    "majorCredits": 40,
+    "description": "Covers human behavior, cognitive science, development, clinical, and social psychology with emphasis on research methods.",
+    "coreCourses": [
+      {
+        "code": "PSY 111",
+        "credits": 3,
+        "name": "Introduction to Psychology",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "PSY 112",
+        "credits": 1,
+        "name": "Foundational Experiences in Psychology",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": [
+          "PSY 111"
+        ]
+      },
+      {
+        "code": "STA 261",
+        "credits": 4,
+        "name": "Statistics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "PSY 293",
+        "credits": 4,
+        "name": "Introduction to Psychological Statistics",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "PSY 111",
+          "STA 261"
+        ]
+      },
+      {
+        "code": "PSY 294",
+        "credits": 4,
+        "name": "Writing and Research Methods in Psychology",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "PSY 293"
+        ]
+      },
+      {
+        "code": "PSY 231",
+        "credits": 3,
+        "name": "Biopsychology",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "PSY 111"
+        ]
+      },
+      {
+        "code": "PSY 241",
+        "credits": 3,
+        "name": "Developmental Psychology",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "PSY 111"
+        ]
+      },
+      {
+        "code": "PSY 251",
+        "credits": 3,
+        "name": "Social Psychology",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "PSY 294"
+        ]
+      },
+      {
+        "code": "PSY 321",
+        "credits": 3,
+        "name": "Cognitive Psychology",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "PSY 294"
+        ]
+      },
+      {
+        "code": "PSY 341",
+        "credits": 3,
+        "name": "Abnormal Psychology",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "PSY 294"
+        ]
+      },
+      {
+        "code": "PSY 410",
+        "credits": 3,
+        "name": "Capstone Seminar in Psychology",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "PSY 294"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "PSY Upper-Level Electives",
+        "description": "At least 9 credit hours from PSY 300+ courses (at least one at 400 level).",
+        "requiredCredits": 9,
+        "courses": [
+          "PSY 301",
+          "PSY 311",
+          "PSY 331",
+          "PSY 351",
+          "PSY 361",
+          "PSY 371",
+          "PSY 381",
+          "PSY 401",
+          "PSY 411",
+          "PSY 421",
+          "PSY 431",
+          "PSY 441",
+          "PSY 451",
+          "PSY 458",
+          "PSY 461",
+          "PSY 471",
+          "PSY 481"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "PSY 111",
+        "PSY 112",
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "STA 261",
+        "PSY Elective",
+        "ENG 112"
+      ],
+      "Sophomore Fall": [
+        "PSY 231",
+        "PSY 293"
+      ],
+      "Sophomore Spring": [
+        "PSY 241",
+        "PSY 294"
+      ],
+      "Junior Fall": [
+        "PSY 251",
+        "PSY 321"
+      ],
+      "Junior Spring": [
+        "PSY 341",
+        "PSY Elective"
+      ],
+      "Senior Fall": [
+        "PSY 400-level Elective"
+      ],
+      "Senior Spring": [
+        "PSY 410"
+      ]
+    }
+  },
+  "History": {
+    "code": "HST",
+    "college": "College of Arts and Science",
+    "degree": "BA",
+    "totalCredits": 128,
+    "majorCredits": 36,
+    "description": "Prepares students to analyze the past through primary sources, historiography, and research across American, European, and world history.",
+    "coreCourses": [
+      {
+        "code": "HST 206",
+        "credits": 3,
+        "name": "Introduction to Historical Inquiry",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "HST 111",
+        "credits": 3,
+        "name": "Survey of American History to 1877",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "HST 112",
+        "credits": 3,
+        "name": "Survey of American History: 1877 to Present",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "HST 197",
+        "credits": 3,
+        "name": "World History to 1500",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "HST 198",
+        "credits": 3,
+        "name": "World History Since 1500",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "HST 400",
+        "credits": 3,
+        "name": "Senior Capstone in History",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": []
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "HST Upper-Level Electives",
+        "description": "At least 18 credit hours in HST at 300 level or above (at least one at 400 level, diversity across regions required).",
+        "requiredCredits": 18,
+        "courses": [
+          "HST 301",
+          "HST 311",
+          "HST 321",
+          "HST 331",
+          "HST 341",
+          "HST 351",
+          "HST 361",
+          "HST 371",
+          "HST 381",
+          "HST 401",
+          "HST 411",
+          "HST 421",
+          "HST 431",
+          "HST 441",
+          "HST 451",
+          "HST 461",
+          "HST 471"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "HST 111",
+        "HST 206",
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "HST 112",
+        "HST 197",
+        "ENG 112"
+      ],
+      "Sophomore Fall": [
+        "HST 198",
+        "HST Elective"
+      ],
+      "Sophomore Spring": [
+        "HST Elective"
+      ],
+      "Junior Fall": [
+        "HST 300-level Elective"
+      ],
+      "Junior Spring": [
+        "HST 300-level Elective"
+      ],
+      "Senior Fall": [
+        "HST 400-level Elective"
+      ],
+      "Senior Spring": [
+        "HST 400"
+      ]
+    }
+  },
+  "Political Science": {
+    "code": "POL",
+    "college": "College of Arts and Science",
+    "degree": "BA",
+    "totalCredits": 128,
+    "majorCredits": 33,
+    "description": "Examines political institutions, behavior, theory, comparative politics, and international relations.",
+    "coreCourses": [
+      {
+        "code": "POL 241",
+        "credits": 3,
+        "name": "American Political System",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "POL 201",
+        "credits": 3,
+        "name": "Political Thinking",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "POL 221",
+        "credits": 3,
+        "name": "Comparative Politics",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "POL 271",
+        "credits": 3,
+        "name": "World Politics",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "POL Advanced Courses (300+)",
+        "description": "At least 18 credit hours from POL at 300 level or above, spanning at least two major subfields.",
+        "requiredCredits": 18,
+        "courses": [
+          "POL 301",
+          "POL 311",
+          "POL 321",
+          "POL 331",
+          "POL 341",
+          "POL 351",
+          "POL 361",
+          "POL 411",
+          "POL 419",
+          "POL 421",
+          "POL 431",
+          "POL 441",
+          "POL 451",
+          "POL 459",
+          "POL 461",
+          "POL 466",
+          "POL 471",
+          "POL 481",
+          "POL 489"
+        ]
+      },
+      {
+        "name": "POL Additional 200+ Courses",
+        "description": "6 additional credit hours from POL at 200 level or above.",
+        "requiredCredits": 6,
+        "courses": [
+          "POL 261",
+          "POL 281",
+          "POL 291"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "POL 241",
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "POL 201",
+        "ENG 112"
+      ],
+      "Sophomore Fall": [
+        "POL 221",
+        "POL Elective"
+      ],
+      "Sophomore Spring": [
+        "POL 271",
+        "POL Elective"
+      ],
+      "Junior Fall": [
+        "POL 300-level Elective",
+        "POL 300-level Elective"
+      ],
+      "Junior Spring": [
+        "POL 300-level Elective"
+      ],
+      "Senior Fall": [
+        "POL 400-level Elective"
+      ],
+      "Senior Spring": [
+        "POL Capstone Seminar"
+      ]
+    }
+  },
+  "Sociology": {
+    "code": "SOC",
+    "college": "College of Arts and Science",
+    "degree": "BA",
+    "totalCredits": 128,
+    "majorCredits": 39,
+    "description": "Examines social structures, institutions, inequality, and cultural patterns using quantitative and qualitative research methods.",
+    "coreCourses": [
+      {
+        "code": "SOC 151",
+        "credits": 3,
+        "name": "Social Relations in the United States",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "STA 261",
+        "credits": 4,
+        "name": "Statistics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "SOC 262",
+        "credits": 3,
+        "name": "Research Methods",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "SOC 151"
+        ]
+      },
+      {
+        "code": "SOC 482",
+        "credits": 4,
+        "name": "Sociological Theory",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "SOC 151"
+        ]
+      },
+      {
+        "code": "SOC 459",
+        "credits": 3,
+        "name": "Sociology Capstone",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "SOC 262",
+          "SOC 482"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "SOC Concentration",
+        "description": "22-23 credit hours from your chosen Sociology or Criminology concentration.",
+        "requiredCredits": 22,
+        "courses": [
+          "SOC 201",
+          "SOC 202",
+          "SOC 301",
+          "SOC 311",
+          "SOC 321",
+          "SOC 331",
+          "SOC 341",
+          "SOC 351",
+          "SOC 352",
+          "SOC 357",
+          "SOC 361",
+          "SOC 371",
+          "SOC 372",
+          "SOC 381",
+          "SOC 401",
+          "SOC 409",
+          "SOC 411",
+          "SOC 421",
+          "SOC 431",
+          "SOC 441"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "SOC 151",
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "STA 261",
+        "ENG 112"
+      ],
+      "Sophomore Fall": [
+        "SOC 262",
+        "SOC Elective"
+      ],
+      "Sophomore Spring": [
+        "SOC Elective"
+      ],
+      "Junior Fall": [
+        "SOC 482",
+        "SOC Concentration"
+      ],
+      "Junior Spring": [
+        "SOC Concentration"
+      ],
+      "Senior Fall": [
+        "SOC Concentration"
+      ],
+      "Senior Spring": [
+        "SOC 459"
+      ]
+    }
+  },
+  "Philosophy": {
+    "code": "PHL",
+    "college": "College of Arts and Science",
+    "degree": "BA",
+    "totalCredits": 128,
+    "majorCredits": 34,
+    "description": "Develops critical reasoning and analysis through the study of ethics, logic, metaphysics, epistemology, and political philosophy.",
+    "coreCourses": [
+      {
+        "code": "PHL 245",
+        "credits": 3,
+        "name": "Writing Philosophy",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "PHL 301",
+        "credits": 4,
+        "name": "Ancient Philosophy",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "PHL 245"
+        ]
+      },
+      {
+        "code": "PHL 302",
+        "credits": 4,
+        "name": "Modern Philosophy",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "PHL 245"
+        ]
+      },
+      {
+        "code": "PHL 404",
+        "credits": 3,
+        "name": "What is Philosophy?",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "PHL 301",
+          "PHL 302"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "PHL 400/500-Level Seminars",
+        "description": "Two seminars totaling 8 credit hours at the 400 or 500 level.",
+        "requiredCredits": 8,
+        "courses": [
+          "PHL 401",
+          "PHL 411",
+          "PHL 421",
+          "PHL 431",
+          "PHL 441",
+          "PHL 451",
+          "PHL 461",
+          "PHL 471",
+          "PHL 481",
+          "PHL 491"
+        ]
+      },
+      {
+        "name": "PHL Electives",
+        "description": "12 additional credit hours in philosophy (max one at 100 level, max two at 200 level).",
+        "requiredCredits": 12,
+        "courses": [
+          "PHL 131",
+          "PHL 141",
+          "PHL 201",
+          "PHL 211",
+          "PHL 221",
+          "PHL 231",
+          "PHL 241",
+          "PHL 261",
+          "PHL 271",
+          "PHL 311",
+          "PHL 321",
+          "PHL 331",
+          "PHL 341",
+          "PHL 351"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "PHL 245",
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "PHL Elective",
+        "ENG 112"
+      ],
+      "Sophomore Fall": [
+        "PHL 301",
+        "PHL Elective"
+      ],
+      "Sophomore Spring": [
+        "PHL 302",
+        "PHL Elective"
+      ],
+      "Junior Fall": [
+        "PHL 400-level Seminar"
+      ],
+      "Junior Spring": [
+        "PHL 400-level Seminar"
+      ],
+      "Senior Fall": [
+        "PHL Elective"
+      ],
+      "Senior Spring": [
+        "PHL 404"
+      ]
+    }
+  },
+  "Journalism": {
+    "code": "JRN",
+    "college": "College of Arts and Science",
+    "degree": "BA",
+    "totalCredits": 128,
+    "majorCredits": 39,
+    "description": "Develops skills in news writing, reporting, editing, and multimedia storytelling for print, broadcast, and digital platforms.",
+    "coreCourses": [
+      {
+        "code": "JRN 101",
+        "credits": 3,
+        "name": "Journalism and American Life",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "JRN 102",
+        "credits": 3,
+        "name": "Precision Language for News Writing",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MJF 105",
+        "credits": 3,
+        "name": "Media, Culture and You",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MJF 146",
+        "credits": 3,
+        "name": "Foundations of Production",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "JRN 201",
+        "credits": 3,
+        "name": "Reporting and News Writing I",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "JRN 102"
+        ]
+      },
+      {
+        "code": "JRN 202",
+        "credits": 3,
+        "name": "Reporting and News Writing II",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "JRN 201"
+        ]
+      },
+      {
+        "code": "JRN 303",
+        "credits": 3,
+        "name": "Multimedia Journalism",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "JRN 201"
+        ]
+      },
+      {
+        "code": "JRN 318",
+        "credits": 3,
+        "name": "Advanced Storytelling in Journalism",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "JRN 201"
+        ]
+      },
+      {
+        "code": "JRN 412",
+        "credits": 3,
+        "name": "Data Journalism",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "JRN 201"
+        ]
+      },
+      {
+        "code": "JRN 421",
+        "credits": 3,
+        "name": "Capstone in Journalism",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "JRN 201"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "JRN Electives",
+        "description": "At least 9 credit hours including at least two JRN courses.",
+        "requiredCredits": 9,
+        "courses": [
+          "JRN 311",
+          "JRN 331",
+          "JRN 341",
+          "JRN 351",
+          "JRN 361",
+          "JRN 371",
+          "JRN 381",
+          "JRN 401",
+          "JRN 411",
+          "JRN 431",
+          "JRN 441",
+          "JRN 451",
+          "MJF 205",
+          "MJF 301"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "JRN 101",
+        "JRN 102",
+        "MJF 105",
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "MJF 146",
+        "ENG 112"
+      ],
+      "Sophomore Fall": [
+        "JRN 201",
+        "JRN Elective"
+      ],
+      "Sophomore Spring": [
+        "JRN 202",
+        "JRN Elective"
+      ],
+      "Junior Fall": [
+        "JRN 303",
+        "JRN 318"
+      ],
+      "Junior Spring": [
+        "JRN 412",
+        "JRN Elective"
+      ],
+      "Senior Fall": [
+        "JRN Elective"
+      ],
+      "Senior Spring": [
+        "JRN 421"
+      ]
+    }
+  },
+  "Strategic Communication": {
+    "code": "STC",
+    "college": "College of Arts and Science",
+    "degree": "BA",
+    "totalCredits": 128,
+    "majorCredits": 39,
+    "description": "Prepares students for careers in advertising, public relations, digital media, and corporate communication.",
+    "coreCourses": [
+      {
+        "code": "JRN 102",
+        "credits": 3,
+        "name": "Precision Language for News Writing",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MJF 105",
+        "credits": 3,
+        "name": "Media, Culture and You",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MJF 146",
+        "credits": 3,
+        "name": "Foundations of Production",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "MJF 205",
+        "credits": 3,
+        "name": "Introduction to Communication and Technology",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "STA 261",
+        "credits": 4,
+        "name": "Statistics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "STC 135",
+        "credits": 3,
+        "name": "Principles of Public Speaking",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "STC 262",
+        "credits": 2,
+        "name": "Research Methods in Strategic Communication",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "STA 261"
+        ]
+      },
+      {
+        "code": "STC 259",
+        "credits": 3,
+        "name": "Foundations of Campaign Design",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "STC 359",
+        "credits": 3,
+        "name": "Advanced Strategic Communication Writing",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "JRN 102",
+          "STC 262"
+        ]
+      },
+      {
+        "code": "STC 459",
+        "credits": 4,
+        "name": "Strategic Communication Campaigns",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "STC 359",
+          "STC 262"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "STC Electives",
+        "description": "At least 9 credit hours from approved STC, JRN, or MJF courses.",
+        "requiredCredits": 9,
+        "courses": [
+          "STC 301",
+          "STC 311",
+          "STC 341",
+          "STC 351",
+          "STC 361",
+          "STC 371",
+          "STC 381",
+          "STC 401",
+          "STC 421",
+          "STC 431",
+          "STC 451",
+          "JRN 201",
+          "JRN 301",
+          "JRN 321",
+          "JRN 341"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "JRN 102",
+        "MJF 105",
+        "STC 135",
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "MJF 146",
+        "STA 261",
+        "ENG 112"
+      ],
+      "Sophomore Fall": [
+        "MJF 205",
+        "STC 262"
+      ],
+      "Sophomore Spring": [
+        "STC 259",
+        "STC Elective"
+      ],
+      "Junior Fall": [
+        "STC 359",
+        "STC Elective"
+      ],
+      "Junior Spring": [
+        "STC Elective"
+      ],
+      "Senior Fall": [
+        "STC Elective"
+      ],
+      "Senior Spring": [
+        "STC 459"
+      ]
+    }
+  },
+  "Biology": {
+    "code": "BIO",
+    "college": "College of Arts and Science",
+    "degree": "BS",
+    "totalCredits": 128,
+    "majorCredits": 73,
+    "description": "Covers cell biology, genetics, ecology, evolution, physiology, and molecular biology with a strong laboratory emphasis.",
+    "coreCourses": [
+      {
+        "code": "BIO 115",
+        "credits": 4,
+        "name": "Biological Concepts: Ecology, Evolution, Genetics, and Diversity",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "BIO 116",
+        "credits": 4,
+        "name": "Biological Concepts: Structure, Function, Cellular, and Molecular",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "CHM 141",
+        "credits": 3,
+        "name": "College Chemistry I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CHM 144",
+        "credits": 2,
+        "name": "College Chemistry I Laboratory",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CHM 142",
+        "credits": 3,
+        "name": "College Chemistry II",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "CHM 141"
+        ]
+      },
+      {
+        "code": "CHM 145",
+        "credits": 2,
+        "name": "College Chemistry II Laboratory",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "CHM 144"
+        ]
+      },
+      {
+        "code": "MTH 151",
+        "credits": 4,
+        "name": "Calculus I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "STA 261",
+        "credits": 4,
+        "name": "Statistics",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "BIO 203",
+        "credits": 3,
+        "name": "Introduction to Cell Biology",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "BIO 116"
+        ]
+      },
+      {
+        "code": "BIO 206",
+        "credits": 3,
+        "name": "Evolutionary Biology",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "BIO 115"
+        ]
+      },
+      {
+        "code": "BIO 209",
+        "credits": 3,
+        "name": "Fundamentals of Ecology",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "BIO 115"
+        ]
+      },
+      {
+        "code": "BIO 342",
+        "credits": 3,
+        "name": "Genetics",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "BIO 116",
+          "CHM 141"
+        ]
+      },
+      {
+        "code": "CHM 231",
+        "credits": 3,
+        "name": "Organic Chemistry I",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "CHM 142"
+        ]
+      },
+      {
+        "code": "CHM 234",
+        "credits": 2,
+        "name": "Organic Chemistry I Lab",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "CHM 145"
+        ]
+      },
+      {
+        "code": "PHY 161",
+        "credits": 4,
+        "name": "Physics for the Life Sciences with Lab I",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "MTH 151"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "BIO Advanced Electives",
+        "description": "At least 17 credit hours from BIO 300+ including at least one 400-level, one plant-focused, one animal-focused, and two with labs.",
+        "requiredCredits": 17,
+        "courses": [
+          "BIO 305",
+          "BIO 315",
+          "BIO 325",
+          "BIO 335",
+          "BIO 345",
+          "BIO 355",
+          "BIO 401",
+          "BIO 405",
+          "BIO 415",
+          "BIO 425",
+          "BIO 435",
+          "BIO 445",
+          "BIO 455",
+          "MBI 321",
+          "MBI 331",
+          "MBI 401"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "BIO 115",
+        "CHM 141",
+        "CHM 144",
+        "MTH 151",
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "BIO 116",
+        "CHM 142",
+        "CHM 145",
+        "ENG 112"
+      ],
+      "Sophomore Fall": [
+        "BIO 203",
+        "CHM 231",
+        "CHM 234",
+        "STA 261"
+      ],
+      "Sophomore Spring": [
+        "BIO 206",
+        "BIO 209",
+        "PHY 161"
+      ],
+      "Junior Fall": [
+        "BIO 342",
+        "BIO Advanced Elective"
+      ],
+      "Junior Spring": [
+        "BIO Advanced Elective"
+      ],
+      "Senior Fall": [
+        "BIO Advanced Elective"
+      ],
+      "Senior Spring": [
+        "BIO 400-level Elective"
+      ]
+    }
+  },
+  "Chemistry": {
+    "code": "CHM",
+    "college": "College of Arts and Science",
+    "degree": "BS",
+    "totalCredits": 128,
+    "majorCredits": 50,
+    "description": "Covers inorganic, organic, analytical, and physical chemistry with strong laboratory research training.",
+    "coreCourses": [
+      {
+        "code": "CHM 141",
+        "credits": 3,
+        "name": "College Chemistry I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CHM 144",
+        "credits": 2,
+        "name": "College Chemistry I Lab",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CHM 142",
+        "credits": 3,
+        "name": "College Chemistry II",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "CHM 141"
+        ]
+      },
+      {
+        "code": "CHM 145",
+        "credits": 2,
+        "name": "College Chemistry II Lab",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "CHM 144"
+        ]
+      },
+      {
+        "code": "MTH 151",
+        "credits": 4,
+        "name": "Calculus I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MTH 251",
+        "credits": 4,
+        "name": "Calculus II",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "MTH 151"
+        ]
+      },
+      {
+        "code": "PHY 181",
+        "credits": 4,
+        "name": "General Physics I",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "MTH 151"
+        ]
+      },
+      {
+        "code": "PHY 183",
+        "credits": 1,
+        "name": "General Physics I Laboratory",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "CHM 231",
+        "credits": 3,
+        "name": "Organic Chemistry I",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "CHM 142"
+        ]
+      },
+      {
+        "code": "CHM 234",
+        "credits": 2,
+        "name": "Organic Chemistry I Lab",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "CHM 145"
+        ]
+      },
+      {
+        "code": "CHM 232",
+        "credits": 3,
+        "name": "Organic Chemistry II",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "CHM 231"
+        ]
+      },
+      {
+        "code": "CHM 235",
+        "credits": 2,
+        "name": "Organic Chemistry II Lab",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "CHM 234"
+        ]
+      },
+      {
+        "code": "CHM 311",
+        "credits": 3,
+        "name": "Analytical Chemistry",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "CHM 142"
+        ]
+      },
+      {
+        "code": "CHM 321",
+        "credits": 3,
+        "name": "Physical Chemistry I",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "CHM 232",
+          "MTH 251"
+        ]
+      },
+      {
+        "code": "CHM 322",
+        "credits": 3,
+        "name": "Physical Chemistry II",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "CHM 321"
+        ]
+      },
+      {
+        "code": "CHM 491",
+        "credits": 3,
+        "name": "Chemistry Senior Research",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "CHM 322"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "CHM Upper-Level Electives",
+        "description": "At least 9 credit hours from 400-level CHM courses.",
+        "requiredCredits": 9,
+        "courses": [
+          "CHM 401",
+          "CHM 411",
+          "CHM 421",
+          "CHM 431",
+          "CHM 441",
+          "CHM 451",
+          "CHM 461",
+          "CHM 471",
+          "CHM 481"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "CHM 141",
+        "CHM 144",
+        "MTH 151",
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "CHM 142",
+        "CHM 145",
+        "ENG 112"
+      ],
+      "Sophomore Fall": [
+        "CHM 231",
+        "CHM 234",
+        "MTH 251"
+      ],
+      "Sophomore Spring": [
+        "CHM 232",
+        "CHM 235",
+        "PHY 181",
+        "PHY 183"
+      ],
+      "Junior Fall": [
+        "CHM 311",
+        "CHM 321"
+      ],
+      "Junior Spring": [
+        "CHM 322",
+        "CHM Elective"
+      ],
+      "Senior Fall": [
+        "CHM Elective"
+      ],
+      "Senior Spring": [
+        "CHM 491"
+      ]
+    }
+  },
+  "Economics": {
+    "code": "ECO",
+    "college": "College of Arts and Science",
+    "degree": "BA",
+    "totalCredits": 128,
+    "majorCredits": 46,
+    "description": "Covers microeconomics, macroeconomics, econometrics, and policy analysis with quantitative training.",
+    "coreCourses": [
+      {
+        "code": "ECO 201",
+        "credits": 3,
+        "name": "Principles of Microeconomics",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ECO 202",
+        "credits": 3,
+        "name": "Principles of Macroeconomics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "MTH 151",
+        "credits": 4,
+        "name": "Calculus I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "STA 261",
+        "credits": 4,
+        "name": "Statistics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ECO 311",
+        "credits": 3,
+        "name": "Examining Economic Data and Models",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "ECO 201",
+          "ECO 202"
+        ]
+      },
+      {
+        "code": "ECO 315",
+        "credits": 3,
+        "name": "Intermediate Microeconomic Theory",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "ECO 201",
+          "MTH 151"
+        ]
+      },
+      {
+        "code": "ECO 317",
+        "credits": 3,
+        "name": "Intermediate Macroeconomic Theory",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "ECO 202",
+          "MTH 151"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "ECO Field Electives",
+        "description": "At least 15 credit hours from ECO 300+ (at least 6 from 410+ requiring ECO 315/317).",
+        "requiredCredits": 15,
+        "courses": [
+          "ECO 301",
+          "ECO 321",
+          "ECO 331",
+          "ECO 341",
+          "ECO 351",
+          "ECO 361",
+          "ECO 371",
+          "ECO 401",
+          "ECO 411",
+          "ECO 421",
+          "ECO 431",
+          "ECO 441",
+          "ECO 451",
+          "ECO 461",
+          "ECO 471"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "ECO 201",
+        "MTH 151",
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "ECO 202",
+        "STA 261",
+        "ENG 112"
+      ],
+      "Sophomore Fall": [
+        "ECO 311",
+        "ECO Elective"
+      ],
+      "Sophomore Spring": [
+        "ECO 315",
+        "ECO Elective"
+      ],
+      "Junior Fall": [
+        "ECO 317",
+        "ECO Elective"
+      ],
+      "Junior Spring": [
+        "ECO 400-level Elective"
+      ],
+      "Senior Fall": [
+        "ECO 400-level Elective"
+      ],
+      "Senior Spring": [
+        "ECO 400-level Elective"
+      ]
+    }
+  },
+  "English - Literature": {
+    "code": "ENG",
+    "college": "College of Arts and Science",
+    "degree": "BA",
+    "totalCredits": 128,
+    "majorCredits": 36,
+    "description": "Develops critical reading, analysis, and writing through the study of American, British, and world literatures across historical periods.",
+    "coreCourses": [
+      {
+        "code": "ENG 111",
+        "credits": 3,
+        "name": "English Composition I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ENG 112",
+        "credits": 3,
+        "name": "English Composition II",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "ENG 111"
+        ]
+      },
+      {
+        "code": "ENG 298",
+        "credits": 3,
+        "name": "Introduction to Literary and Cultural Studies",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ENG 370",
+        "credits": 3,
+        "name": "Introduction to Literary and Cultural Theory",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "ENG 298"
+        ]
+      },
+      {
+        "code": "ENG 460",
+        "credits": 3,
+        "name": "Capstone in Literature",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "ENG 370"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "ENG Literature Survey Courses",
+        "description": "Five literature courses required (no more than two at 100 level).",
+        "requiredCredits": 15,
+        "courses": [
+          "ENG 141",
+          "ENG 151",
+          "ENG 161",
+          "ENG 201",
+          "ENG 202",
+          "ENG 211",
+          "ENG 221",
+          "ENG 231",
+          "ENG 241",
+          "ENG 251",
+          "ENG 261",
+          "ENG 271",
+          "ENG 281"
+        ]
+      },
+      {
+        "name": "ENG Advanced Literature",
+        "description": "At least 6 credit hours from ENG 440, 450, 480, or 490.",
+        "requiredCredits": 6,
+        "courses": [
+          "ENG 440",
+          "ENG 450",
+          "ENG 480",
+          "ENG 490",
+          "ENG 495"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "ENG 112",
+        "ENG 298",
+        "ENG Lit Survey"
+      ],
+      "Sophomore Fall": [
+        "ENG Lit Survey",
+        "ENG Lit Survey"
+      ],
+      "Sophomore Spring": [
+        "ENG Lit Survey",
+        "ENG Lit Survey"
+      ],
+      "Junior Fall": [
+        "ENG 370",
+        "ENG Elective"
+      ],
+      "Junior Spring": [
+        "ENG Advanced",
+        "ENG Advanced"
+      ],
+      "Senior Fall": [
+        "ENG Elective"
+      ],
+      "Senior Spring": [
+        "ENG 460"
+      ]
+    }
+  },
+  "Kinesiology": {
+    "code": "KNH",
+    "college": "College of Education, Health and Society",
+    "degree": "BS",
+    "totalCredits": 128,
+    "majorCredits": 60,
+    "description": "Prepares students for careers in exercise science, fitness, wellness, physical therapy, and health promotion.",
+    "coreCourses": [
+      {
+        "code": "BIO 161",
+        "credits": 4,
+        "name": "Human Physiology",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CHM 141",
+        "credits": 3,
+        "name": "College Chemistry I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CHM 144",
+        "credits": 2,
+        "name": "College Chemistry I Lab",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CHM 142",
+        "credits": 3,
+        "name": "College Chemistry II",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "CHM 141"
+        ]
+      },
+      {
+        "code": "CHM 145",
+        "credits": 2,
+        "name": "College Chemistry II Lab",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "PHY 161",
+        "credits": 4,
+        "name": "Physics for the Life Sciences with Lab I",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "PSY 111",
+        "credits": 3,
+        "name": "Introduction to Psychology",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "PSY 112",
+        "credits": 1,
+        "name": "Foundational Experiences in Psychology",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "STA 261",
+        "credits": 4,
+        "name": "Statistics",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "KNH 184",
+        "credits": 3,
+        "name": "Motor Skill Learning and Performance",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "KNH 188",
+        "credits": 3,
+        "name": "Physical Activity and Health",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "KNH 209",
+        "credits": 3,
+        "name": "Medical Terminology for Health Professionals",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "KNH 244",
+        "credits": 3,
+        "name": "Functional Anatomy",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "BIO 161"
+        ]
+      },
+      {
+        "code": "KNH 244L",
+        "credits": 1,
+        "name": "Functional Anatomy Laboratory",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "BIO 161"
+        ]
+      },
+      {
+        "code": "KNH 381",
+        "credits": 3,
+        "name": "Biodynamics of Human Performance",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "KNH 244"
+        ]
+      },
+      {
+        "code": "KNH 381L",
+        "credits": 1,
+        "name": "Biodynamics Lab",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "KNH 244"
+        ]
+      },
+      {
+        "code": "KNH 382",
+        "credits": 3,
+        "name": "Physical Activity and Fitness Assessment",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "KNH 244"
+        ]
+      },
+      {
+        "code": "KNH 382L",
+        "credits": 1,
+        "name": "Assessment Laboratory",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "KNH 468",
+        "credits": 3,
+        "name": "Physiology of Exercise and Physical Activity",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": [
+          "KNH 381"
+        ]
+      },
+      {
+        "code": "KNH 468L",
+        "credits": 1,
+        "name": "Physiology Lab",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "KNH 482",
+        "credits": 3,
+        "name": "Exercise Prescription",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "KNH 468"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "KNH Electives",
+        "description": "At least 6 credit hours from approved KNH courses.",
+        "requiredCredits": 6,
+        "courses": [
+          "KNH 218",
+          "KNH 321",
+          "KNH 329",
+          "KNH 409",
+          "KNH 442",
+          "KNH 465",
+          "KNH 480",
+          "KNH 483"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "BIO 161",
+        "CHM 141",
+        "CHM 144",
+        "KNH 188",
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "CHM 142",
+        "CHM 145",
+        "KNH 209",
+        "PSY 111",
+        "PSY 112",
+        "ENG 112"
+      ],
+      "Sophomore Fall": [
+        "KNH 184",
+        "PHY 161",
+        "STA 261"
+      ],
+      "Sophomore Spring": [
+        "KNH 244",
+        "KNH 244L"
+      ],
+      "Junior Fall": [
+        "KNH 381",
+        "KNH 381L",
+        "KNH Elective"
+      ],
+      "Junior Spring": [
+        "KNH 382",
+        "KNH 382L",
+        "KNH Elective"
+      ],
+      "Senior Fall": [
+        "KNH 468",
+        "KNH 468L"
+      ],
+      "Senior Spring": [
+        "KNH 482"
+      ]
+    }
+  },
+  "Nursing": {
+    "code": "NSG",
+    "college": "College of Education, Health and Society",
+    "degree": "BSN",
+    "totalCredits": 128,
+    "majorCredits": 60,
+    "description": "Prepares registered nurses through clinical and didactic instruction in evidence-based practice across the lifespan.",
+    "coreCourses": [
+      {
+        "code": "BIO 161",
+        "credits": 4,
+        "name": "Human Physiology",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CHM 141",
+        "credits": 3,
+        "name": "College Chemistry I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CHM 144",
+        "credits": 2,
+        "name": "College Chemistry I Lab",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "PSY 111",
+        "credits": 3,
+        "name": "Introduction to Psychology",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "STA 261",
+        "credits": 4,
+        "name": "Statistics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "KNH 244",
+        "credits": 3,
+        "name": "Functional Anatomy",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "BIO 161"
+        ]
+      },
+      {
+        "code": "KNH 244L",
+        "credits": 1,
+        "name": "Functional Anatomy Lab",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MBI 111",
+        "credits": 3,
+        "name": "Introductory Microbiology",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "CHM 141"
+        ]
+      },
+      {
+        "code": "NSG 201",
+        "credits": 3,
+        "name": "Foundations of Nursing",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "BIO 161"
+        ]
+      },
+      {
+        "code": "NSG 215",
+        "credits": 4,
+        "name": "Health Assessment",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "BIO 161"
+        ]
+      },
+      {
+        "code": "NSG 221",
+        "credits": 3,
+        "name": "Nursing Ethics and Practice",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "NSG 201"
+        ]
+      },
+      {
+        "code": "NSG 311",
+        "credits": 4,
+        "name": "Adult Health Nursing I",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "NSG 215"
+        ]
+      },
+      {
+        "code": "NSG 312",
+        "credits": 4,
+        "name": "Adult Health Nursing II",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "NSG 311"
+        ]
+      },
+      {
+        "code": "NSG 321",
+        "credits": 3,
+        "name": "Mental Health Nursing",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "NSG 221"
+        ]
+      },
+      {
+        "code": "NSG 401",
+        "credits": 3,
+        "name": "Advanced Writing in Nursing",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": [
+          "NSG 221"
+        ]
+      },
+      {
+        "code": "NSG 411",
+        "credits": 4,
+        "name": "Community Health Nursing",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": [
+          "NSG 312"
+        ]
+      },
+      {
+        "code": "NSG 491",
+        "credits": 4,
+        "name": "Nursing Leadership Capstone",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "NSG 411"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "NSG Clinical Electives",
+        "description": "At least 6 credit hours from approved NSG clinical specialty courses.",
+        "requiredCredits": 6,
+        "courses": [
+          "NSG 331",
+          "NSG 341",
+          "NSG 351",
+          "NSG 421",
+          "NSG 431",
+          "NSG 441"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "BIO 161",
+        "CHM 141",
+        "CHM 144",
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "PSY 111",
+        "STA 261",
+        "ENG 112"
+      ],
+      "Sophomore Fall": [
+        "KNH 244",
+        "KNH 244L",
+        "MBI 111"
+      ],
+      "Sophomore Spring": [
+        "NSG 201",
+        "NSG 215"
+      ],
+      "Junior Fall": [
+        "NSG 221",
+        "NSG 311"
+      ],
+      "Junior Spring": [
+        "NSG 312",
+        "NSG 321"
+      ],
+      "Senior Fall": [
+        "NSG 401",
+        "NSG 411"
+      ],
+      "Senior Spring": [
+        "NSG 491"
+      ]
+    }
+  },
+  "Music": {
+    "code": "MUS",
+    "college": "College of Creative Arts",
+    "degree": "BA",
+    "totalCredits": 128,
+    "majorCredits": 48,
+    "description": "Provides training in music theory, history, and performance with a focus on musical literacy and artistic expression.",
+    "coreCourses": [
+      {
+        "code": "MUS 111",
+        "credits": 2,
+        "name": "Music Theory I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MUS 112",
+        "credits": 2,
+        "name": "Music Theory II",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "MUS 111"
+        ]
+      },
+      {
+        "code": "MUS 121",
+        "credits": 2,
+        "name": "Musicianship I: Ear Training",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MUS 122",
+        "credits": 2,
+        "name": "Musicianship II: Ear Training",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "MUS 121"
+        ]
+      },
+      {
+        "code": "MUS 131",
+        "credits": 3,
+        "name": "Music History I: Antiquity to Baroque",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MUS 132",
+        "credits": 3,
+        "name": "Music History II: Classical to Contemporary",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "MUS 211",
+        "credits": 2,
+        "name": "Music Theory III: Harmony",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "MUS 112"
+        ]
+      },
+      {
+        "code": "MUS 212",
+        "credits": 2,
+        "name": "Music Theory IV: Form and Analysis",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "MUS 211"
+        ]
+      },
+      {
+        "code": "MUS 301",
+        "credits": 3,
+        "name": "History of Rock and Popular Music",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "MUS 132"
+        ]
+      },
+      {
+        "code": "MUS 401",
+        "credits": 3,
+        "name": "Conducting",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "MUS 212"
+        ]
+      },
+      {
+        "code": "MUS 491",
+        "credits": 3,
+        "name": "Senior Recital or Thesis",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "MUS 401"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "MUS Performance Electives",
+        "description": "At least 12 credit hours from applied lessons and ensemble participation.",
+        "requiredCredits": 12,
+        "courses": [
+          "MUS 141",
+          "MUS 142",
+          "MUS 143",
+          "MUS 241",
+          "MUS 242",
+          "MUS 341",
+          "MUS 342",
+          "MUS 441",
+          "MUS 442",
+          "MUS 321",
+          "MUS 331",
+          "MUS 351"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "MUS 111",
+        "MUS 121",
+        "MUS 131",
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "MUS 112",
+        "MUS 122",
+        "MUS 132",
+        "ENG 112"
+      ],
+      "Sophomore Fall": [
+        "MUS 211",
+        "MUS Performance"
+      ],
+      "Sophomore Spring": [
+        "MUS 212",
+        "MUS Performance"
+      ],
+      "Junior Fall": [
+        "MUS 301",
+        "MUS 401"
+      ],
+      "Junior Spring": [
+        "MUS Performance Elective"
+      ],
+      "Senior Fall": [
+        "MUS Performance Elective"
+      ],
+      "Senior Spring": [
+        "MUS 491"
+      ]
+    }
+  },
+  "Art History": {
+    "code": "ART",
+    "college": "College of Creative Arts",
+    "degree": "BA",
+    "totalCredits": 120,
+    "majorCredits": 36,
+    "description": "Critical study of visual art across cultures and historical periods, from ancient to contemporary.",
+    "coreCourses": [
+      {
+        "code": "ART 101",
+        "credits": 3,
+        "name": "Survey of Western Art History I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ART 102",
+        "credits": 3,
+        "name": "Survey of Western Art History II",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ART 203",
+        "credits": 3,
+        "name": "Non-Western Art History",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "ART 101"
+        ]
+      },
+      {
+        "code": "ART 201",
+        "credits": 3,
+        "name": "Art Research and Writing Methods",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "ART 101",
+          "ART 102"
+        ]
+      },
+      {
+        "code": "ART 491",
+        "credits": 3,
+        "name": "Senior Seminar in Art History",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": [
+          "ART 201"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "Art History Period/Theme Electives",
+        "description": "At least 21 credit hours from ART 300\u00e2\u20ac\u201c400 level art history courses.",
+        "requiredCredits": 21,
+        "courses": [
+          "ART 301",
+          "ART 302",
+          "ART 303",
+          "ART 304",
+          "ART 305",
+          "ART 310",
+          "ART 320",
+          "ART 321",
+          "ART 330",
+          "ART 340",
+          "ART 350",
+          "ART 401",
+          "ART 402",
+          "ART 403",
+          "ART 410",
+          "ART 420",
+          "ART 430",
+          "ART 440",
+          "ART 450",
+          "ART 460"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "ART 101",
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "ART 102",
+        "ENG 112"
+      ],
+      "Sophomore Fall": [
+        "ART 203",
+        "ART Upper Elective"
+      ],
+      "Sophomore Spring": [
+        "ART 201",
+        "ART Upper Elective"
+      ],
+      "Junior Fall": [
+        "ART Upper Elective",
+        "ART Upper Elective"
+      ],
+      "Junior Spring": [
+        "ART Upper Elective",
+        "ART Upper Elective"
+      ],
+      "Senior Fall": [
+        "ART 491",
+        "ART Upper Elective"
+      ],
+      "Senior Spring": [
+        "ART Upper Elective"
+      ]
+    }
+  },
+  "Criminal Justice": {
+    "code": "CRJ",
+    "college": "College of Arts and Science",
+    "degree": "BA",
+    "totalCredits": 120,
+    "majorCredits": 36,
+    "description": "Study of law, crime, policing, courts, and corrections in a sociological and legal context.",
+    "coreCourses": [
+      {
+        "code": "SOC 153",
+        "credits": 3,
+        "name": "Introduction to Sociology",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CRJ 101",
+        "credits": 3,
+        "name": "Introduction to Criminal Justice",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CRJ 201",
+        "credits": 3,
+        "name": "Criminal Law",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "CRJ 101"
+        ]
+      },
+      {
+        "code": "CRJ 211",
+        "credits": 3,
+        "name": "Criminology",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "SOC 153"
+        ]
+      },
+      {
+        "code": "CRJ 301",
+        "credits": 3,
+        "name": "Research Methods in Criminal Justice",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "CRJ 101",
+          "STA 261"
+        ]
+      },
+      {
+        "code": "STA 261",
+        "credits": 4,
+        "name": "Statistics",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "CRJ 401",
+        "credits": 3,
+        "name": "Senior Capstone: Justice Policy",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "CRJ 301"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "CRJ Electives",
+        "description": "At least 15 credit hours from approved CRJ or SOC 300-level courses.",
+        "requiredCredits": 15,
+        "courses": [
+          "CRJ 311",
+          "CRJ 321",
+          "CRJ 331",
+          "CRJ 341",
+          "CRJ 411",
+          "CRJ 421",
+          "SOC 301",
+          "SOC 321",
+          "POL 311"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "SOC 153",
+        "CRJ 101",
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "ENG 112"
+      ],
+      "Sophomore Fall": [
+        "CRJ 201",
+        "STA 261"
+      ],
+      "Sophomore Spring": [
+        "CRJ 211"
+      ],
+      "Junior Fall": [
+        "CRJ 301",
+        "CRJ Elective"
+      ],
+      "Junior Spring": [
+        "CRJ Elective",
+        "CRJ Elective"
+      ],
+      "Senior Fall": [
+        "CRJ Elective"
+      ],
+      "Senior Spring": [
+        "CRJ 401"
+      ]
+    }
+  },
+  "Environmental Studies": {
+    "code": "EST",
+    "college": "College of Arts and Science",
+    "degree": "BA",
+    "totalCredits": 120,
+    "majorCredits": 42,
+    "description": "Interdisciplinary study of environmental science, sustainability, policy, and ecology.",
+    "coreCourses": [
+      {
+        "code": "GEO 121",
+        "credits": 3,
+        "name": "Physical Geography",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "BIO 115",
+        "credits": 4,
+        "name": "Diversity of Life",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CHM 141",
+        "credits": 4,
+        "name": "College Chemistry I",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "STA 261",
+        "credits": 4,
+        "name": "Statistics",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "EST 201",
+        "credits": 3,
+        "name": "Introduction to Environmental Studies",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "BIO 115"
+        ]
+      },
+      {
+        "code": "EST 301",
+        "credits": 3,
+        "name": "Environmental Policy",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "EST 201"
+        ]
+      },
+      {
+        "code": "EST 401",
+        "credits": 3,
+        "name": "Senior Seminar in Environmental Studies",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": [
+          "EST 301"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "Environmental Science Electives",
+        "description": "At least 18 credit hours from science and social science environmental courses.",
+        "requiredCredits": 18,
+        "courses": [
+          "BIO 305",
+          "BIO 315",
+          "BIO 430",
+          "GEO 301",
+          "GEO 310",
+          "GEO 321",
+          "CHM 301",
+          "EST 311",
+          "EST 321",
+          "EST 411",
+          "ECO 321"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "GEO 121",
+        "BIO 115",
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "CHM 141",
+        "ENG 112"
+      ],
+      "Sophomore Fall": [
+        "STA 261",
+        "EST 201"
+      ],
+      "Sophomore Spring": [
+        "Science Elective"
+      ],
+      "Junior Fall": [
+        "EST Elective",
+        "Science Elective"
+      ],
+      "Junior Spring": [
+        "EST 301",
+        "EST Elective"
+      ],
+      "Senior Fall": [
+        "EST 401",
+        "EST Elective"
+      ],
+      "Senior Spring": [
+        "EST Elective"
+      ]
+    }
+  },
+  "Social Work": {
+    "code": "SWK",
+    "college": "College of Education, Health and Society",
+    "degree": "BSW",
+    "totalCredits": 124,
+    "majorCredits": 60,
+    "description": "Preparation for professional social work practice with individuals, families, and communities.",
+    "coreCourses": [
+      {
+        "code": "SWK 201",
+        "credits": 3,
+        "name": "Introduction to Social Work",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "SOC 153",
+        "credits": 3,
+        "name": "Introduction to Sociology",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "PSY 111",
+        "credits": 3,
+        "name": "Introduction to Psychology",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "SWK 301",
+        "credits": 3,
+        "name": "Social Work Practice I",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "SWK 201"
+        ]
+      },
+      {
+        "code": "SWK 311",
+        "credits": 3,
+        "name": "Social Welfare Policy and Services",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "SWK 201"
+        ]
+      },
+      {
+        "code": "SWK 321",
+        "credits": 3,
+        "name": "Human Behavior and the Social Environment",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "SWK 301"
+        ]
+      },
+      {
+        "code": "SWK 401",
+        "credits": 3,
+        "name": "Social Work Practice II",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "SWK 321"
+        ]
+      },
+      {
+        "code": "SWK 481",
+        "credits": 6,
+        "name": "Field Practicum I",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": [
+          "SWK 401"
+        ]
+      },
+      {
+        "code": "SWK 482",
+        "credits": 6,
+        "name": "Field Practicum II",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "SWK 481"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "SWK Electives",
+        "description": "At least 12 credit hours from approved SWK electives.",
+        "requiredCredits": 12,
+        "courses": [
+          "SWK 331",
+          "SWK 341",
+          "SWK 351",
+          "SWK 411",
+          "SWK 421",
+          "SOC 321",
+          "PSY 331"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "SWK 201",
+        "SOC 153",
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "PSY 111",
+        "ENG 112"
+      ],
+      "Sophomore Fall": [
+        "SWK 301"
+      ],
+      "Sophomore Spring": [
+        "SWK 311"
+      ],
+      "Junior Fall": [
+        "SWK 321",
+        "SWK Elective"
+      ],
+      "Junior Spring": [
+        "SWK 401",
+        "SWK Elective"
+      ],
+      "Senior Fall": [
+        "SWK 481"
+      ],
+      "Senior Spring": [
+        "SWK 482"
+      ]
+    }
+  },
+  "Accounting": {
+    "code": "ACC",
+    "college": "Farmer School of Business",
+    "degree": "BS",
+    "totalCredits": 128,
+    "majorCredits": 62,
+    "description": "Prepares students for CPA licensure and careers in public, corporate, or government accounting.",
+    "coreCourses": [
+      {
+        "code": "ACC 221",
+        "credits": 3,
+        "name": "Introduction to Financial Accounting",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ACC 222",
+        "credits": 3,
+        "name": "Introduction to Managerial Accounting",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "ACC 221"
+        ]
+      },
+      {
+        "code": "BUS 101",
+        "credits": 2,
+        "name": "Foundations of Business",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "BUS 102",
+        "credits": 2,
+        "name": "Foundations of Business Communication",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "BUS 104",
+        "credits": 2,
+        "name": "Introduction to Computational Thinking for Business",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CSE 148",
+        "credits": 3,
+        "name": "Business Computing",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ECO 201",
+        "credits": 3,
+        "name": "Principles of Microeconomics",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ECO 202",
+        "credits": 3,
+        "name": "Principles of Macroeconomics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ISA 125",
+        "credits": 3,
+        "name": "Introduction to Business Statistics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "ISA 225",
+        "credits": 3,
+        "name": "Principles of Business Analytics",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "ISA 125"
+        ]
+      },
+      {
+        "code": "ISA 235",
+        "credits": 3,
+        "name": "Information Technology and the Intelligent Enterprise",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MGT 291",
+        "credits": 3,
+        "name": "Introduction to Management and Leadership",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MGT 295",
+        "credits": 3,
+        "name": "Introduction to Operations and Supply Chain",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "MKT 291",
+        "credits": 3,
+        "name": "Principles of Marketing",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "BLS 342",
+        "credits": 3,
+        "name": "Legal Environment of Business",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "FIN 301",
+        "credits": 3,
+        "name": "Introduction to Business Finance",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "ACC 221"
+        ]
+      },
+      {
+        "code": "MTH 141",
+        "credits": 4,
+        "name": "Business Calculus",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ACC 256",
+        "credits": 1,
+        "name": "Accountancy Career Exploration and Planning",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "ACC 221"
+        ]
+      },
+      {
+        "code": "ACC 321",
+        "credits": 3,
+        "name": "Intermediate Financial Accounting",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "ACC 222"
+        ]
+      },
+      {
+        "code": "ACC 333",
+        "credits": 3,
+        "name": "Managerial Accounting",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "ACC 222"
+        ]
+      },
+      {
+        "code": "ACC 343",
+        "credits": 3,
+        "name": "Federal Income Tax Accounting",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "ACC 222"
+        ]
+      },
+      {
+        "code": "ACC 361",
+        "credits": 3,
+        "name": "Accounting Information Systems",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "ACC 222"
+        ]
+      },
+      {
+        "code": "ACC 422",
+        "credits": 3,
+        "name": "Financial Accounting Research",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": [
+          "ACC 321"
+        ]
+      },
+      {
+        "code": "ACC 453",
+        "credits": 3,
+        "name": "Financial Statement Auditing",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "ACC 321"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "ACC Professional Electives",
+        "description": "At least 3 credit hours from approved ACC 200+ courses.",
+        "requiredCredits": 3,
+        "courses": [
+          "ACC 331",
+          "ACC 341",
+          "ACC 401",
+          "ACC 411",
+          "ACC 431",
+          "ACC 441",
+          "ACC 471",
+          "ACC 481"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "ACC 221",
+        "BUS 101",
+        "BUS 102",
+        "BUS 104",
+        "ECO 201",
+        "MTH 141"
+      ],
+      "Freshman Spring": [
+        "ACC 222",
+        "CSE 148",
+        "ECO 202",
+        "ISA 125"
+      ],
+      "Sophomore Fall": [
+        "ACC 256",
+        "ISA 225",
+        "ISA 235",
+        "MGT 291"
+      ],
+      "Sophomore Spring": [
+        "BLS 342",
+        "FIN 301",
+        "MGT 295",
+        "MKT 291"
+      ],
+      "Junior Fall": [
+        "ACC 321",
+        "ACC 333"
+      ],
+      "Junior Spring": [
+        "ACC 343",
+        "ACC 361"
+      ],
+      "Senior Fall": [
+        "ACC 422",
+        "ACC Elective"
+      ],
+      "Senior Spring": [
+        "ACC 453"
+      ]
+    }
+  },
+  "Information Systems & Analytics": {
+    "code": "ISA",
+    "college": "Farmer School of Business",
+    "degree": "BSB",
+    "totalCredits": 128,
+    "majorCredits": 60,
+    "description": "Combines business analytics, data management, and IT to support organizational decision-making.",
+    "coreCourses": [
+      {
+        "code": "ACC 221",
+        "credits": 3,
+        "name": "Financial Accounting",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ACC 222",
+        "credits": 3,
+        "name": "Managerial Accounting",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "ACC 221"
+        ]
+      },
+      {
+        "code": "ECO 101",
+        "credits": 3,
+        "name": "Principles of Microeconomics",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "STA 261",
+        "credits": 4,
+        "name": "Statistics",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MGT 291",
+        "credits": 3,
+        "name": "Organizational Behavior",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "ACC 221"
+        ]
+      },
+      {
+        "code": "MKT 291",
+        "credits": 3,
+        "name": "Principles of Marketing",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "ACC 221"
+        ]
+      },
+      {
+        "code": "CSE 174",
+        "credits": 3,
+        "name": "Fundamentals of Programming",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ISA 225",
+        "credits": 3,
+        "name": "Information Systems Concepts",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "CSE 174"
+        ]
+      },
+      {
+        "code": "ISA 245",
+        "credits": 3,
+        "name": "Database Systems",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "ISA 225"
+        ]
+      },
+      {
+        "code": "ISA 321",
+        "credits": 3,
+        "name": "Systems Analysis and Design",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "ISA 225"
+        ]
+      },
+      {
+        "code": "ISA 414",
+        "credits": 3,
+        "name": "Managing Big Data",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "ISA 245",
+          "STA 261"
+        ]
+      },
+      {
+        "code": "ISA 491",
+        "credits": 3,
+        "name": "ISA Senior Capstone",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "ISA 321"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "ISA Technical Electives",
+        "description": "At least 12 credit hours from approved ISA or CSE courses.",
+        "requiredCredits": 12,
+        "courses": [
+          "ISA 301",
+          "ISA 331",
+          "ISA 341",
+          "ISA 401",
+          "ISA 411",
+          "ISA 431",
+          "ISA 481",
+          "CSE 271",
+          "CSE 385",
+          "CSE 432",
+          "STA 301"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "ACC 221",
+        "ECO 101",
+        "CSE 174",
+        "STA 261"
+      ],
+      "Freshman Spring": [
+        "ACC 222"
+      ],
+      "Sophomore Fall": [
+        "MGT 291",
+        "ISA 225"
+      ],
+      "Sophomore Spring": [
+        "MKT 291",
+        "ISA 245"
+      ],
+      "Junior Fall": [
+        "ISA 321",
+        "ISA Elective"
+      ],
+      "Junior Spring": [
+        "ISA 414",
+        "ISA Elective"
+      ],
+      "Senior Fall": [
+        "ISA Elective"
+      ],
+      "Senior Spring": [
+        "ISA 491"
+      ]
+    }
+  },
+  "Management": {
+    "code": "MGT",
+    "college": "Farmer School of Business",
+    "degree": "BSB",
+    "totalCredits": 128,
+    "majorCredits": 60,
+    "description": "Prepares students for leadership, organizational behavior, HR, and operations management careers.",
+    "coreCourses": [
+      {
+        "code": "ACC 221",
+        "credits": 3,
+        "name": "Financial Accounting",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ACC 222",
+        "credits": 3,
+        "name": "Managerial Accounting",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "ACC 221"
+        ]
+      },
+      {
+        "code": "ECO 101",
+        "credits": 3,
+        "name": "Principles of Microeconomics",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ECO 102",
+        "credits": 3,
+        "name": "Principles of Macroeconomics",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "STA 261",
+        "credits": 4,
+        "name": "Statistics",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MGT 291",
+        "credits": 3,
+        "name": "Organizational Behavior",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "ACC 221"
+        ]
+      },
+      {
+        "code": "MKT 291",
+        "credits": 3,
+        "name": "Principles of Marketing",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "ACC 221"
+        ]
+      },
+      {
+        "code": "FIN 301",
+        "credits": 3,
+        "name": "Financial Management",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "ACC 221",
+          "ECO 101"
+        ]
+      },
+      {
+        "code": "MGT 302",
+        "credits": 3,
+        "name": "Operations Management",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "MGT 291"
+        ]
+      },
+      {
+        "code": "MGT 411",
+        "credits": 3,
+        "name": "Business Strategy",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": [
+          "MGT 302"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "MGT Major Electives",
+        "description": "At least 15 credits from approved MGT 300+ courses.",
+        "requiredCredits": 15,
+        "courses": [
+          "MGT 301",
+          "MGT 311",
+          "MGT 321",
+          "MGT 331",
+          "MGT 341",
+          "MGT 401",
+          "MGT 421",
+          "MGT 431",
+          "MGT 441"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "ACC 221",
+        "ECO 101"
+      ],
+      "Freshman Spring": [
+        "ACC 222",
+        "ECO 102"
+      ],
+      "Sophomore Fall": [
+        "MGT 291",
+        "STA 261"
+      ],
+      "Sophomore Spring": [
+        "MKT 291",
+        "FIN 301"
+      ],
+      "Junior Fall": [
+        "MGT 302",
+        "MGT Elective"
+      ],
+      "Junior Spring": [
+        "MGT Elective",
+        "MGT Elective"
+      ],
+      "Senior Fall": [
+        "MGT 411",
+        "MGT Elective"
+      ],
+      "Senior Spring": [
+        "MGT Elective"
+      ]
+    }
+  },
+  "Pre-Medicine": {
+    "code": "PRE-MED",
+    "college": "College of Arts and Science",
+    "degree": "BS (varies)",
+    "totalCredits": 120,
+    "majorCredits": 45,
+    "description": "Pre-medicine track: complete medical school prerequisites alongside a Biology or Chemistry major.",
+    "coreCourses": [
+      {
+        "code": "BIO 115",
+        "credits": 4,
+        "name": "Diversity of Life",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "BIO 116",
+        "credits": 4,
+        "name": "Cell Structure and Function",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "BIO 115"
+        ]
+      },
+      {
+        "code": "CHM 141",
+        "credits": 4,
+        "name": "College Chemistry I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "CHM 142",
+        "credits": 4,
+        "name": "College Chemistry II",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "CHM 141"
+        ]
+      },
+      {
+        "code": "CHM 241",
+        "credits": 4,
+        "name": "Organic Chemistry I",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "CHM 142"
+        ]
+      },
+      {
+        "code": "CHM 242",
+        "credits": 4,
+        "name": "Organic Chemistry II",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "CHM 241"
+        ]
+      },
+      {
+        "code": "PHY 181",
+        "credits": 5,
+        "name": "General Physics I",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "MTH 151"
+        ]
+      },
+      {
+        "code": "PHY 182",
+        "credits": 5,
+        "name": "General Physics II",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "PHY 181"
+        ]
+      },
+      {
+        "code": "MTH 151",
+        "credits": 4,
+        "name": "Calculus I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "PSY 111",
+        "credits": 3,
+        "name": "Introduction to Psychology",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "SOC 153",
+        "credits": 3,
+        "name": "Introduction to Sociology",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "MCAT Science Electives",
+        "description": "Upper-level science courses for MCAT preparation.",
+        "requiredCredits": 9,
+        "courses": [
+          "BIO 305",
+          "BIO 315",
+          "CHM 301",
+          "CHM 311",
+          "CHM 341",
+          "BIO 430",
+          "KNH 251",
+          "BIO 161"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "BIO 115",
+        "CHM 141",
+        "MTH 151"
+      ],
+      "Freshman Spring": [
+        "BIO 116",
+        "CHM 142"
+      ],
+      "Sophomore Fall": [
+        "CHM 241",
+        "PHY 181",
+        "PSY 111"
+      ],
+      "Sophomore Spring": [
+        "CHM 242",
+        "PHY 182",
+        "SOC 153"
+      ],
+      "Junior Fall": [
+        "MCAT Elective",
+        "MCAT Elective"
+      ],
+      "Junior Spring": [
+        "MCAT Elective"
+      ],
+      "Senior Fall": [
+        "Research"
+      ],
+      "Senior Spring": [
+        "Research"
+      ]
+    }
+  },
+  "Physics": {
+    "code": "PHY",
+    "college": "College of Arts and Science",
+    "degree": "BS",
+    "totalCredits": 124,
+    "majorCredits": 52,
+    "description": "Foundational and advanced study of mechanics, electromagnetism, quantum mechanics, and modern physics.",
+    "coreCourses": [
+      {
+        "code": "MTH 151",
+        "credits": 4,
+        "name": "Calculus I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "MTH 251",
+        "credits": 4,
+        "name": "Calculus II",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "MTH 151"
+        ]
+      },
+      {
+        "code": "PHY 181",
+        "credits": 5,
+        "name": "General Physics I",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": [
+          "MTH 151"
+        ]
+      },
+      {
+        "code": "PHY 182",
+        "credits": 5,
+        "name": "General Physics II",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "PHY 181"
+        ]
+      },
+      {
+        "code": "MTH 252",
+        "credits": 4,
+        "name": "Calculus III",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "MTH 251"
+        ]
+      },
+      {
+        "code": "MTH 222",
+        "credits": 3,
+        "name": "Introduction to Linear Algebra",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "MTH 151"
+        ]
+      },
+      {
+        "code": "PHY 291",
+        "credits": 3,
+        "name": "Classical Mechanics I",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": [
+          "PHY 182",
+          "MTH 252"
+        ]
+      },
+      {
+        "code": "PHY 293",
+        "credits": 3,
+        "name": "Electrodynamics I",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "PHY 182",
+          "MTH 252"
+        ]
+      },
+      {
+        "code": "PHY 381",
+        "credits": 3,
+        "name": "Quantum Mechanics I",
+        "year": 3,
+        "semester": "fall",
+        "prereqs": [
+          "PHY 291"
+        ]
+      },
+      {
+        "code": "PHY 382",
+        "credits": 3,
+        "name": "Quantum Mechanics II",
+        "year": 3,
+        "semester": "spring",
+        "prereqs": [
+          "PHY 381"
+        ]
+      },
+      {
+        "code": "PHY 491",
+        "credits": 3,
+        "name": "Senior Thesis Research I",
+        "year": 4,
+        "semester": "fall",
+        "prereqs": [
+          "PHY 382"
+        ]
+      },
+      {
+        "code": "PHY 492",
+        "credits": 3,
+        "name": "Senior Thesis Research II",
+        "year": 4,
+        "semester": "spring",
+        "prereqs": [
+          "PHY 491"
+        ]
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "PHY Upper-Level Electives",
+        "description": "At least 9 credit hours from approved PHY 300+ courses.",
+        "requiredCredits": 9,
+        "courses": [
+          "PHY 301",
+          "PHY 311",
+          "PHY 321",
+          "PHY 341",
+          "PHY 401",
+          "PHY 411",
+          "PHY 431",
+          "PHY 451"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "PHY 181",
+        "MTH 151"
+      ],
+      "Freshman Spring": [
+        "PHY 182",
+        "MTH 251"
+      ],
+      "Sophomore Fall": [
+        "PHY 291",
+        "MTH 252"
+      ],
+      "Sophomore Spring": [
+        "PHY 293",
+        "MTH 222"
+      ],
+      "Junior Fall": [
+        "PHY 381",
+        "PHY Elective"
+      ],
+      "Junior Spring": [
+        "PHY 382",
+        "PHY Elective"
+      ],
+      "Senior Fall": [
+        "PHY 491",
+        "PHY Elective"
+      ],
+      "Senior Spring": [
+        "PHY 492"
+      ]
+    }
+  },
+  "Pre-Law": {
+    "code": "PRE-LAW",
+    "college": "College of Arts and Science",
+    "degree": "BA (varies)",
+    "totalCredits": 120,
+    "majorCredits": 36,
+    "description": "Pre-law is an advisory track. Students typically major in Political Science, History, or Philosophy while completing recommended law school prep courses.",
+    "coreCourses": [
+      {
+        "code": "POL 141",
+        "credits": 3,
+        "name": "American National Government",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ENG 111",
+        "credits": 3,
+        "name": "English Composition",
+        "year": 1,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "ENG 112",
+        "credits": 3,
+        "name": "Advanced English Composition",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": [
+          "ENG 111"
+        ]
+      },
+      {
+        "code": "PHL 131",
+        "credits": 3,
+        "name": "Ethics in Practical Life",
+        "year": 1,
+        "semester": "spring",
+        "prereqs": []
+      },
+      {
+        "code": "PHL 141",
+        "credits": 3,
+        "name": "Logic",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "HST 112",
+        "credits": 3,
+        "name": "The World Since 1500",
+        "year": 2,
+        "semester": "fall",
+        "prereqs": []
+      },
+      {
+        "code": "POL 281",
+        "credits": 3,
+        "name": "Introduction to Political Science Research",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": [
+          "POL 141"
+        ]
+      },
+      {
+        "code": "ECO 101",
+        "credits": 3,
+        "name": "Principles of Microeconomics",
+        "year": 2,
+        "semester": "spring",
+        "prereqs": []
+      }
+    ],
+    "electiveGroups": [
+      {
+        "name": "Law School Prep Electives",
+        "description": "Upper-level courses in political science, philosophy, economics, or criminal justice.",
+        "requiredCredits": 12,
+        "courses": [
+          "POL 311",
+          "POL 321",
+          "POL 331",
+          "PHL 301",
+          "PHL 311",
+          "ECO 201",
+          "CRJ 101",
+          "CRJ 201",
+          "SOC 153",
+          "HIS 341"
+        ]
+      }
+    ],
+    "suggestedOrder": {
+      "Freshman Fall": [
+        "POL 141",
+        "ENG 111"
+      ],
+      "Freshman Spring": [
+        "ENG 112",
+        "PHL 131"
+      ],
+      "Sophomore Fall": [
+        "PHL 141",
+        "HST 112"
+      ],
+      "Sophomore Spring": [
+        "POL 281",
+        "ECO 101"
+      ],
+      "Junior Fall": [
+        "Law Elective",
+        "Law Elective"
+      ],
+      "Junior Spring": [
+        "Law Elective"
+      ],
+      "Senior Fall": [
+        "Law Elective",
+        "LSAT Prep"
+      ],
+      "Senior Spring": [
+        "Elective"
+      ]
+    }
+  }
+}

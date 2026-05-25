@@ -1,0 +1,459 @@
+{
+  "_comment": "Miami University general education requirements. NMP = New Miami Plan (Fall 2023+). GMP = Global Miami Plan (before Spring 2023).",
+  "_version": "2.0",
+
+  "NMP": {
+    "label": "Miami Plan",
+    "appliesTo": "Students entering Fall 2023 or later",
+    "attributePrefix": "PA",
+    "totalPlanCredits": 36,
+    "categories": [
+      {
+        "id": "nmp_eng_comp",
+        "label": "English Composition",
+        "requiredCredits": 3,
+        "minCourses": 1,
+        "attributeCodes": ["PA1B"],
+        "courses": ["ENG 111", "ENG 109", "ENG 107", "ENG 108", "ENG 112"],
+        "notes": "ENG 111 is standard entry. ENG 109/107 are ESL/stretch variants. Must earn C or better."
+      },
+      {
+        "id": "nmp_adv_writing",
+        "label": "Advanced Writing",
+        "requiredCredits": 3,
+        "minCourses": 1,
+        "attributeCodes": ["PA1C"],
+        "courses": [
+          "ENG 313", "ENG 314", "ENG 411", "ENG 412",
+          "ACC 302", "BIO 315", "CHM 211", "CSE 321",
+          "ECO 311", "ENG 385", "HST 301", "MGT 302",
+          "MKT 395", "POL 315", "PSY 495", "SOC 335",
+          "STC 302", "COM 302", "JRN 301", "KNH 353",
+          "PHY 391", "PHL 411", "NSG 401", "SPA 390"
+        ],
+        "notes": "Must be upper-division (300+). Typically completed in junior or senior year."
+      },
+      {
+        "id": "nmp_quant",
+        "label": "Quantitative Reasoning",
+        "requiredCredits": 3,
+        "minCourses": 1,
+        "attributeCodes": ["PA2A"],
+        "courses": [
+          "MTH 102", "MTH 121", "MTH 122", "MTH 123", "MTH 125",
+          "MTH 133", "MTH 141", "MTH 151", "MTH 153", "MTH 217",
+          "MTH 222", "MTH 231", "MTH 249", "MTH 251",
+          "STA 261", "STA 301", "STA 363",
+          "CSE 148", "CSE 162", "CSE 163",
+          "PHL 131", "ISA 205", "ECO 211"
+        ],
+        "notes": "CSE 148 may satisfy Quantitative Reasoning depending on major. Verify with advisor."
+      },
+      {
+        "id": "nmp_nat_sci",
+        "label": "Natural Science with Lab",
+        "requiredCredits": 4,
+        "minCourses": 1,
+        "attributeCodes": ["PA2B", "PA2C"],
+        "courses": [
+          "BIO 115", "BIO 116", "BIO 161", "BIO 162", "BIO 203",
+          "CHM 141", "CHM 142", "CHM 144", "CHM 145",
+          "PHY 181", "PHY 182", "PHY 183", "PHY 191", "PHY 192",
+          "GLG 111", "GLG 115", "GLG 121",
+          "MBI 111", "MBI 201",
+          "NSG 215"
+        ],
+        "notes": "Lab component (PA2C) must accompany lecture. BIO 116 includes lab. CHM 141+144 as a pair."
+      },
+      {
+        "id": "nmp_creative_arts",
+        "label": "Creative Arts",
+        "requiredCredits": 3,
+        "minCourses": 1,
+        "attributeCodes": ["PA3A"],
+        "courses": [
+          "ART 101", "ART 102", "ART 106", "ART 111", "ART 161", "ART 162",
+          "MUS 109", "MUS 110", "MUS 191", "MUS 192", "MUS 151", "MUS 161",
+          "THE 101", "THE 102", "THE 111", "THE 131",
+          "DAN 101", "DAN 111", "DAN 151",
+          "ARC 101", "ARC 151",
+          "JRN 271", "ENG 221", "ENG 222",
+          "IMS 201"
+        ],
+        "notes": "Courses focused on creative production or artistic analysis."
+      },
+      {
+        "id": "nmp_humanities",
+        "label": "Humanities",
+        "requiredCredits": 3,
+        "minCourses": 1,
+        "attributeCodes": ["PA3B"],
+        "courses": [
+          "PHL 121", "PHL 131", "PHL 171", "PHL 201", "PHL 202",
+          "ENG 121", "ENG 122", "ENG 201", "ENG 202", "ENG 221", "ENG 223", "ENG 231",
+          "HST 111", "HST 112", "HST 121", "HST 122", "HST 131", "HST 201",
+          "CLS 101", "CLS 102", "CLS 111", "CLS 151",
+          "REL 121", "REL 131", "REL 141",
+          "GIC 101", "AMS 201",
+          "JPN 111", "JPN 112", "CHI 111", "CHI 112",
+          "GER 111", "FRE 111", "SPN 101", "SPN 102",
+          "ITL 101", "ITL 102", "CLS 201", "CLS 202"
+        ],
+        "notes": "Literature, history, philosophy, religion, language, and cultural studies."
+      },
+      {
+        "id": "nmp_social_sci",
+        "label": "Social Science",
+        "requiredCredits": 3,
+        "minCourses": 1,
+        "attributeCodes": ["PA3C"],
+        "courses": [
+          "PSY 111", "PSY 121", "PSY 211",
+          "SOC 153", "SOC 165",
+          "POL 141", "POL 151", "POL 161",
+          "ECO 101", "ECO 102",
+          "ATH 121", "ATH 155",
+          "GEO 121", "GEO 201",
+          "GIC 111", "GIC 121",
+          "KNH 201", "KNH 271",
+          "ISA 101", "MGT 201",
+          "JRN 101", "STC 101"
+        ],
+        "notes": "Courses examining human behavior, societies, and institutions."
+      },
+      {
+        "id": "nmp_global_inquiry",
+        "label": "Global Inquiry",
+        "requiredCredits": 3,
+        "minCourses": 1,
+        "attributeCodes": ["PA4A", "PA4C"],
+        "courses": [
+          "GIC 101", "GIC 111", "GIC 121", "GIC 201",
+          "AMS 201", "AMS 211",
+          "ATH 121", "ATH 241",
+          "CHI 111", "CHI 112", "CHI 201",
+          "CLS 201", "CLS 202",
+          "ECO 261", "ECO 315",
+          "ENG 223", "ENG 241",
+          "FRE 111", "FRE 112",
+          "GER 111", "GER 112",
+          "GIC 311", "GIC 321",
+          "HST 111", "HST 112", "HST 131", "HST 201",
+          "ITL 101", "ITL 102",
+          "JPN 111", "JPN 112",
+          "KNH 321",
+          "MGT 304",
+          "MKT 441",
+          "PHL 202", "PHL 311",
+          "POL 151", "POL 161", "POL 261",
+          "REL 131", "REL 141",
+          "SOC 165", "SOC 265",
+          "SPN 101", "SPN 102",
+          "STC 331"
+        ],
+        "notes": "Courses with international, comparative, or intercultural focus."
+      },
+      {
+        "id": "nmp_ethical_citizenship",
+        "label": "Ethical Citizenship",
+        "requiredCredits": 3,
+        "minCourses": 1,
+        "attributeCodes": ["PA4A"],
+        "courses": [
+          "PHL 121", "PHL 171", "PHL 201", "PHL 202", "PHL 311",
+          "POL 141", "POL 151",
+          "SOC 153", "SOC 251",
+          "REL 121", "REL 201",
+          "BLS 341", "BLS 351",
+          "KNH 301",
+          "NSG 221",
+          "MGT 345",
+          "STC 251",
+          "ECO 315",
+          "PSY 391",
+          "GIC 201"
+        ],
+        "notes": "Courses focused on ethics, civic responsibility, and justice."
+      },
+      {
+        "id": "nmp_thematic_seq",
+        "label": "Thematic Sequence",
+        "requiredCredits": 9,
+        "minCourses": 3,
+        "attributeCodes": ["PA5"],
+        "courses": [],
+        "notes": "A three-course linked sequence exploring a theme across disciplines. See thematicSequences list."
+      },
+      {
+        "id": "nmp_senior_integration",
+        "label": "Senior Integration",
+        "requiredCredits": 3,
+        "minCourses": 1,
+        "attributeCodes": ["SI"],
+        "courses": [
+          "CSE 448", "CSE 449", "CSE 495",
+          "MGT 491", "MKT 491", "ACC 491", "FIN 491",
+          "PSY 495", "PSY 497",
+          "BIO 491", "BIO 495",
+          "ENG 491", "ENG 497",
+          "MTH 491",
+          "PHY 491",
+          "MME 491", "ECE 491",
+          "NSG 491",
+          "KNH 491", "KNH 495",
+          "SOC 491", "POL 491",
+          "STA 491"
+        ],
+        "notes": "Upper-division capstone; typically completed in senior year within the major."
+      }
+    ]
+  },
+
+  "GMP": {
+    "label": "Global Miami Plan",
+    "appliesTo": "Students entering before Spring 2023",
+    "attributePrefix": "FND",
+    "totalPlanCredits": 36,
+    "categories": [
+      {
+        "id": "gmp_eng_comp",
+        "label": "English Composition",
+        "requiredCredits": 6,
+        "minCourses": 2,
+        "attributeCodes": ["FND-W"],
+        "courses": ["ENG 111", "ENG 112", "ENG 109", "ENG 107"],
+        "notes": "Both ENG 111 and ENG 112 required. Must earn C or better in each."
+      },
+      {
+        "id": "gmp_fine_arts",
+        "label": "Fine Arts",
+        "requiredCredits": 3,
+        "minCourses": 1,
+        "attributeCodes": ["FND-FA"],
+        "courses": [
+          "ART 101", "ART 102", "ART 106", "ART 111", "ART 161", "ART 162",
+          "MUS 109", "MUS 110", "MUS 151", "MUS 161", "MUS 191",
+          "THE 101", "THE 102", "THE 111",
+          "DAN 101", "DAN 111",
+          "ARC 101", "ARC 151",
+          "ENG 221", "ENG 222",
+          "IMS 201"
+        ],
+        "notes": "Creative and performing arts."
+      },
+      {
+        "id": "gmp_humanities",
+        "label": "Humanities",
+        "requiredCredits": 6,
+        "minCourses": 2,
+        "attributeCodes": ["FND-HU"],
+        "courses": [
+          "PHL 121", "PHL 131", "PHL 171", "PHL 201",
+          "ENG 121", "ENG 122", "ENG 201", "ENG 223", "ENG 231", "ENG 241",
+          "HST 111", "HST 112", "HST 121", "HST 122", "HST 131",
+          "CLS 101", "CLS 102", "CLS 111", "CLS 151",
+          "REL 121", "REL 131", "REL 141",
+          "AMS 201",
+          "JPN 111", "JPN 112",
+          "CHI 111", "CHI 112",
+          "GER 111", "GER 112",
+          "FRE 111", "FRE 112",
+          "SPN 101", "SPN 102",
+          "ITL 101", "ITL 102"
+        ],
+        "notes": "Two courses from different disciplines required."
+      },
+      {
+        "id": "gmp_social_sci",
+        "label": "Social Science",
+        "requiredCredits": 6,
+        "minCourses": 2,
+        "attributeCodes": ["FND-SS"],
+        "courses": [
+          "PSY 111", "PSY 121",
+          "SOC 153", "SOC 165",
+          "POL 141", "POL 151", "POL 161",
+          "ECO 101", "ECO 102",
+          "ATH 121", "ATH 155",
+          "GEO 121", "GEO 201",
+          "GIC 101", "GIC 111",
+          "JRN 101", "STC 101",
+          "ISA 101", "MGT 201",
+          "KNH 201"
+        ],
+        "notes": "Two courses from social science disciplines; may not both be from same department."
+      },
+      {
+        "id": "gmp_nat_sci",
+        "label": "Natural Science with Lab",
+        "requiredCredits": 4,
+        "minCourses": 1,
+        "attributeCodes": ["FND-NS", "FND-NL"],
+        "courses": [
+          "BIO 115", "BIO 116", "BIO 161", "BIO 162",
+          "CHM 141", "CHM 142", "CHM 144",
+          "PHY 181", "PHY 182", "PHY 191",
+          "GLG 111", "GLG 115", "GLG 121",
+          "MBI 111", "MBI 201"
+        ],
+        "notes": "Lab component required. BIO 116, CHM 141+144, PHY 181 include labs."
+      },
+      {
+        "id": "gmp_math",
+        "label": "Mathematics / Formal Reasoning",
+        "requiredCredits": 3,
+        "minCourses": 1,
+        "attributeCodes": ["FND-MR"],
+        "courses": [
+          "MTH 102", "MTH 121", "MTH 122", "MTH 123", "MTH 125",
+          "MTH 133", "MTH 141", "MTH 151", "MTH 153", "MTH 217",
+          "MTH 222", "MTH 231", "MTH 249", "MTH 251",
+          "STA 261", "STA 301",
+          "CSE 148", "CSE 162",
+          "PHL 131", "ISA 205"
+        ],
+        "notes": "Math or logic-based formal reasoning course."
+      },
+      {
+        "id": "gmp_global",
+        "label": "Global Perspectives",
+        "requiredCredits": 3,
+        "minCourses": 1,
+        "attributeCodes": ["FND-GP"],
+        "courses": [
+          "GIC 101", "GIC 111", "GIC 121",
+          "AMS 201", "AMS 211",
+          "ATH 241",
+          "CHI 201", "CHI 202",
+          "CLS 201", "CLS 202",
+          "ECO 261",
+          "ENG 223", "ENG 241",
+          "FRE 201", "FRE 202",
+          "GER 201", "GER 202",
+          "GIC 201", "GIC 301",
+          "HST 201", "HST 111", "HST 112",
+          "ITL 201",
+          "JPN 201", "JPN 202",
+          "MGT 304",
+          "POL 151", "POL 161", "POL 261",
+          "REL 131", "REL 141",
+          "SOC 165",
+          "SPN 201", "SPN 202"
+        ],
+        "notes": "Course with significant international or intercultural content."
+      },
+      {
+        "id": "gmp_adv_writing",
+        "label": "Advanced Writing",
+        "requiredCredits": 3,
+        "minCourses": 1,
+        "attributeCodes": ["FND-AW"],
+        "courses": [
+          "ENG 313", "ENG 314", "ENG 385", "ENG 411",
+          "ACC 302", "BIO 315", "CHM 211", "CSE 321",
+          "ECO 311", "HST 301", "JRN 301", "KNH 353",
+          "MGT 302", "MKT 395", "PHL 411", "PHY 391",
+          "POL 315", "PSY 495", "SOC 335", "STC 302",
+          "NSG 401", "SPA 390", "COM 302"
+        ],
+        "notes": "Upper-division writing course (300+). Often satisfied within the major."
+      },
+      {
+        "id": "gmp_thematic_seq",
+        "label": "Thematic Sequence",
+        "requiredCredits": 9,
+        "minCourses": 3,
+        "attributeCodes": ["FND-TS"],
+        "courses": [],
+        "notes": "A three-course linked sequence exploring a theme. See thematicSequences list."
+      }
+    ]
+  },
+
+  "thematicSequences": [
+    {
+      "id": "ts_mind_brain",
+      "name": "Mind, Brain, and Behavior",
+      "description": "Explores how the brain gives rise to mind and behavior across psychological, biological, and philosophical perspectives.",
+      "courses": ["PSY 111", "PSY 231", "PSY 321"],
+      "department": "Psychology"
+    },
+    {
+      "id": "ts_american_exp",
+      "name": "American Experience",
+      "description": "Examines the development of American culture, politics, and society from multiple perspectives.",
+      "courses": ["HST 121", "HST 122", "POL 141"],
+      "department": "History / Political Science"
+    },
+    {
+      "id": "ts_tech_society",
+      "name": "Technology, Values, and Society",
+      "description": "Investigates how technology shapes and is shaped by human values, culture, and social institutions.",
+      "courses": ["CSE 148", "PHL 201", "SOC 351"],
+      "department": "CSE / Philosophy / Sociology"
+    },
+    {
+      "id": "ts_env_issues",
+      "name": "Issues in the Environment",
+      "description": "Multidisciplinary examination of environmental challenges and sustainability.",
+      "courses": ["GLG 111", "BIO 115", "GEO 201"],
+      "department": "Geology / Biology / Geography"
+    },
+    {
+      "id": "ts_global_health",
+      "name": "Global Health",
+      "description": "Explores health, disease, and healthcare systems from a global perspective.",
+      "courses": ["MBI 111", "KNH 201", "GIC 201"],
+      "department": "Microbiology / Kinesiology / GIC"
+    },
+    {
+      "id": "ts_formal_inquiry",
+      "name": "Formal Inquiry",
+      "description": "Develops systematic reasoning through mathematics, logic, and scientific method.",
+      "courses": ["MTH 121", "PHL 131", "STA 261"],
+      "department": "Math / Philosophy / Statistics"
+    },
+    {
+      "id": "ts_art_civilization",
+      "name": "Art and Civilization",
+      "description": "Traces the history of visual art and its relationship to Western civilization.",
+      "courses": ["ART 161", "ART 162", "HST 111"],
+      "department": "Art / History"
+    },
+    {
+      "id": "ts_law_society",
+      "name": "Law and Society",
+      "description": "Examines the role of law in shaping social institutions, rights, and justice.",
+      "courses": ["POL 141", "BLS 241", "SOC 251"],
+      "department": "Political Science / Business Legal Studies / Sociology"
+    },
+    {
+      "id": "ts_sport_society",
+      "name": "Sport Leadership and Society",
+      "description": "Explores sport as a cultural, economic, and social phenomenon.",
+      "courses": ["SLM 101", "KNH 201", "SLM 301"],
+      "department": "Sport Leadership / Kinesiology"
+    },
+    {
+      "id": "ts_cultural_encounters",
+      "name": "Cultural Encounters",
+      "description": "Investigates how cultures interact, clash, and transform each other across time and place.",
+      "courses": ["ATH 121", "HST 112", "ENG 241"],
+      "department": "Anthropology / History / English"
+    },
+    {
+      "id": "ts_human_biology",
+      "name": "Human Biology and Society",
+      "description": "Explores biological foundations of human life in social and ethical context.",
+      "courses": ["BIO 115", "MBI 111", "PSY 231"],
+      "department": "Biology / Microbiology / Psychology"
+    },
+    {
+      "id": "ts_media_comm",
+      "name": "Media, Communication, and Society",
+      "description": "Examines the role of media and communication in shaping public life.",
+      "courses": ["JRN 101", "STC 101", "POL 261"],
+      "department": "Journalism / Strategic Communication / Political Science"
+    }
+  ]
+}
