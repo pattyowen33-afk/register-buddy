@@ -10,12 +10,13 @@ const PORT = process.env.PORT || 3001
 
 // ── Middleware ────────────────────────────────────────────────────────────────
 
+// In production Railway deploys, Express serves the built Vite frontend too
+const isProd = process.env.NODE_ENV === 'production'
+
 app.use(cors({
-  origin: [
-    'http://localhost:5173',
-    'http://localhost:4173',
-    process.env.FRONTEND_URL,
-  ].filter(Boolean),
+  origin: isProd
+    ? [process.env.RAILWAY_PUBLIC_DOMAIN ? `https://${process.env.RAILWAY_PUBLIC_DOMAIN}` : '*', process.env.FRONTEND_URL].filter(Boolean)
+    : ['http://localhost:5173', 'http://localhost:4173', process.env.FRONTEND_URL].filter(Boolean),
   credentials: true,
 }))
 app.use(express.json({ limit: '2mb' }))
@@ -54,6 +55,19 @@ app.get('/api/health', (req, res) => {
     ts:       new Date().toISOString(),
   })
 })
+
+// ── Serve built frontend in production ───────────────────────────────────────
+
+if (isProd) {
+  const distPath = path.join(__dirname, '../dist')
+  app.use(express.static(distPath))
+  // All non-API routes return the React app (client-side routing)
+  app.get('*', (req, res) => {
+    if (!req.path.startsWith('/api')) {
+      res.sendFile(path.join(distPath, 'index.html'))
+    }
+  })
+}
 
 // ── DB init on startup ────────────────────────────────────────────────────────
 

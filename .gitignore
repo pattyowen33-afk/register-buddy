@@ -1,5 +1,13 @@
 node_modules
 dist
+
+# Environment files — set these in Railway dashboard instead
+.env
 .env.local
 .env*.local
-*.env
+server/.env
+
+# SQLite database (rebuilt by scraper on deploy)
+server/db/*.db
+server/db/*.db-shm
+server/db/*.db-wal

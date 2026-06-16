@@ -17,77 +17,110 @@
 // Group majors into broad academic tracks that share math/science/GE paths
 
 const MAJOR_TO_TRACK = {
-  // Business track — MTH 141, STA 261, business core
-  'Accounting':                      'BUSINESS',
-  'Finance':                         'BUSINESS',
-  'Marketing':                       'BUSINESS',
-  'Management':                      'BUSINESS',
-  'Business Analytics':              'BUSINESS',
-  'Information Systems & Analytics': 'BUSINESS',
-  'Information Systems':             'BUSINESS',
+  // ── Business track — MTH 141, STA 261, business core ──────────────────────
+  'Accounting':                               'BUSINESS',
+  'Business Analytics':                       'BUSINESS',
+  'Data Analytics':                           'BUSINESS',
+  'Entrepreneurship':                         'BUSINESS',
+  'Finance':                                  'BUSINESS',
+  'Human Capital Management and Leadership':  'BUSINESS',
+  'Information Systems':                      'BUSINESS',
+  'Information Systems & Analytics':          'BUSINESS',
+  'Information Systems and Cybersecurity Management': 'BUSINESS',
+  'International Business':                   'BUSINESS',
+  'Management':                               'BUSINESS',
+  'Marketing':                                'BUSINESS',
+  'Real Estate':                              'BUSINESS',
 
-  // CS/Software track — MTH 151, 251, 231, 222; PHY 181
-  'Computer Science':                'STEM_CS',
-  'Software Engineering':            'STEM_CS',
+  // ── CS / Software track — MTH 151, 251, 231, 222; PHY 181 ────────────────
+  'Computer Science':                         'STEM_CS',
+  'Computer Engineering':                     'STEM_CS',
+  'Software Engineering':                     'STEM_CS',
 
-  // Engineering track — MTH 151, 251, 252, 245; PHY 181, CHM 141
-  'Mechanical Engineering':          'STEM_ENG',
-  'Electrical Engineering':          'STEM_ENG',
-  'Electrical & Computer Engineering':'STEM_ENG',
-  'Civil Engineering':               'STEM_ENG',
+  // ── Engineering track — MTH 151, 251, 252, 245; PHY 181, CHM 141 ─────────
+  'Biomedical Engineering':                   'STEM_ENG',
+  'Chemical Engineering':                     'STEM_ENG',
+  'Civil Engineering':                        'STEM_ENG',
+  'Electrical Engineering':                   'STEM_ENG',
+  'Electrical & Computer Engineering':        'STEM_ENG',
+  'Mechanical Engineering':                   'STEM_ENG',
 
-  // Life/Physical science track — BIO, CHM sequence; MTH 151
-  'Biology':                         'STEM_SCI',
-  'Chemistry':                       'STEM_SCI',
-  'Environmental Studies':           'STEM_SCI',
-  'Geology':                         'STEM_SCI',
-  'Pre-Medicine':                    'STEM_SCI',
-  'Nursing':                         'STEM_SCI',
-  'Dietetics':                       'STEM_SCI',
+  // ── Life/Physical science — BIO, CHM sequence; MTH 151 ───────────────────
+  'Biochemistry':                             'STEM_SCI',
+  'Biology':                                  'STEM_SCI',
+  'Chemistry':                                'STEM_SCI',
+  'Dietetics':                                'STEM_SCI',
+  'Environmental Studies':                    'STEM_SCI',
+  'Geology':                                  'STEM_SCI',
+  'Microbiology':                             'STEM_SCI',
+  'Neuroscience':                             'STEM_SCI',
+  'Nursing':                                  'STEM_SCI',
+  'Pre-Medicine':                             'STEM_SCI',
+  'Zoology':                                  'STEM_SCI',
 
-  // Physics/Math track — full calc sequence
-  'Physics':                         'STEM_MATH',
-  'Mathematics':                     'STEM_MATH',
-  'Statistics':                      'STEM_MATH',
+  // ── Physics/Math track — full calc sequence ───────────────────────────────
+  'Mathematics':                              'STEM_MATH',
+  'Physics':                                  'STEM_MATH',
+  'Statistics':                               'STEM_MATH',
 
-  // Social science track — STA 261, NOT heavy calc or lab sciences
-  'Psychology':                      'SOCIAL_SCI',
-  'Sociology':                       'SOCIAL_SCI',
-  'Political Science':               'SOCIAL_SCI',
-  'Economics':                       'GENERAL',   // Miami Econ requires MTH 151 — not excluded like other social sciences
-  'Criminal Justice':                'SOCIAL_SCI',
-  'Public Administration':           'SOCIAL_SCI',
-  'Social Work':                     'SOCIAL_SCI',
-  'Geography':                       'SOCIAL_SCI',
+  // ── Social science track — STA 261, no heavy calc/lab science ────────────
+  'Communication Sciences & Disorders':       'SOCIAL_SCI',
+  'Criminal Justice':                         'SOCIAL_SCI',
+  'Economics':                                'GENERAL',   // Miami Econ requires MTH 151
+  'Geography':                                'SOCIAL_SCI',
+  'Global & Intercultural Studies':           'SOCIAL_SCI',
+  'International Studies':                    'SOCIAL_SCI',
+  'Political Science':                        'SOCIAL_SCI',
+  'Psychology':                               'SOCIAL_SCI',
+  'Public Administration':                    'SOCIAL_SCI',
+  'Social Studies Education':                 'SOCIAL_SCI',
+  'Social Work':                              'SOCIAL_SCI',
+  'Sociology':                                'SOCIAL_SCI',
+  "Women's, Gender & Sexuality Studies":      'SOCIAL_SCI',
 
-  // Humanities track — writing-heavy, minimal STEM
-  'English':                         'HUMANITIES',
-  'History':                         'HUMANITIES',
-  'Philosophy':                      'HUMANITIES',
-  'Journalism':                      'HUMANITIES',
-  'Strategic Communication':         'HUMANITIES',
-  'Creative Writing':                'HUMANITIES',
-  'Media & Culture':                 'HUMANITIES',
-  'Art History':                     'HUMANITIES',
-  'Theatre':                         'HUMANITIES',
-  'Music':                           'HUMANITIES',
-  'Spanish':                         'HUMANITIES',
+  // ── Humanities track — writing-heavy, minimal STEM ────────────────────────
+  'Art History':                              'HUMANITIES',
+  'Classical Humanities':                     'HUMANITIES',
+  'Creative Writing':                         'HUMANITIES',
+  'English':                                  'HUMANITIES',
+  'French':                                   'HUMANITIES',
+  'German':                                   'HUMANITIES',
+  'History':                                  'HUMANITIES',
+  'Interactive Media Studies':                'HUMANITIES',
+  'Journalism':                               'HUMANITIES',
+  'Linguistics':                              'HUMANITIES',
+  'Media & Culture':                          'HUMANITIES',
+  'Music':                                    'HUMANITIES',
+  'Music Education':                          'HUMANITIES',
+  'Philosophy':                               'HUMANITIES',
+  'Spanish':                                  'HUMANITIES',
+  'Speech Pathology & Audiology':             'HUMANITIES',
+  'Strategic Communication':                  'HUMANITIES',
+  'Theatre':                                  'HUMANITIES',
 
-  // Health/Kinesiology — bio-based but not full pre-med sequence
-  'Kinesiology':                     'HEALTH',
-  'Exercise Science':                'HEALTH',
+  // ── Health/Kinesiology — bio-based, not full pre-med ─────────────────────
+  'Exercise Science':                         'HEALTH',
+  'Kinesiology':                              'HEALTH',
+  'Physical Education':                       'HEALTH',
 
-  // Education
-  'Early Childhood Education':       'EDUCATION',
-  'Integrated Mathematics Education':'EDUCATION',
+  // ── Education ─────────────────────────────────────────────────────────────
+  'Early Childhood Education':                'EDUCATION',
+  'Integrated Mathematics Education':         'EDUCATION',
+  'Middle Childhood Education':               'EDUCATION',
+  'Special Education':                        'EDUCATION',
 
-  // Design
-  'Architecture':                    'DESIGN',
-  'Communication Design':            'DESIGN',
+  // ── Design ────────────────────────────────────────────────────────────────
+  'Architecture':                             'DESIGN',
+  'Art Education':                            'DESIGN',
+  'Communication Design':                     'DESIGN',
 
-  // Fallback
-  'Liberal Studies':                 'GENERAL',
-  'Undecided / Exploring':           'GENERAL',
+  // ── Pre-professional (advising tracks) ───────────────────────────────────
+  'Pre-Law':                                  'GENERAL',
+  'Pre-Medicine':                             'STEM_SCI',
+
+  // ── Fallback ──────────────────────────────────────────────────────────────
+  'Liberal Studies':                          'GENERAL',
+  'Undecided / Exploring':                    'GENERAL',
 }
 
 // ── Track-level course rules ───────────────────────────────────────────────────

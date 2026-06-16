@@ -293,27 +293,67 @@ export function parseCourses(rawText) {
 // ── Data ─────────────────────────────────────────────────────────────────────
 
 const MAJORS = [
-  'Accounting', 'Architecture', 'Art Education', 'Art History', 'Biology',
-  'Business Analytics', 'Chemistry', 'Civil Engineering', 'Communication Design',
-  'Computer Science', 'Creative Writing', 'Criminal Justice', 'Dietetics',
+  // A
+  'Accounting', 'Architecture', 'Art Education', 'Art History',
+  // B
+  'Biochemistry', 'Biology', 'Biomedical Engineering', 'Business Analytics',
+  // C
+  'Chemical Engineering', 'Chemistry', 'Civil Engineering',
+  'Classical Humanities', 'Communication Design', 'Communication Sciences & Disorders',
+  'Computer Engineering', 'Computer Science', 'Creative Writing', 'Criminal Justice',
+  // D
+  'Data Analytics', 'Dietetics',
+  // E
   'Early Childhood Education', 'Economics', 'Electrical & Computer Engineering',
-  'English', 'Environmental Studies', 'Exercise Science', 'Finance', 'Geography',
-  'Geology', 'History', 'Information Systems & Analytics', 'Integrated Mathematics Education',
-  'Journalism', 'Kinesiology', 'Liberal Studies', 'Management', 'Marketing',
-  'Mechanical Engineering', 'Media & Culture', 'Music', 'Nursing', 'Philosophy',
-  'Physics', 'Political Science', 'Pre-Law', 'Pre-Medicine', 'Psychology',
-  'Public Administration', 'Social Work', 'Sociology', 'Software Engineering',
-  'Spanish', 'Statistics', 'Strategic Communication', 'Theatre',
+  'English', 'Entrepreneurship', 'Environmental Studies', 'Exercise Science',
+  // F
+  'Finance', 'French',
+  // G
+  'Geography', 'Geology', 'German', 'Global & Intercultural Studies',
+  // H
+  'History',
+  // I
+  'Information Systems & Analytics', 'Information Systems and Cybersecurity Management',
+  'Integrated Mathematics Education', 'Interactive Media Studies', 'International Business',
+  'International Studies',
+  // J–K
+  'Journalism', 'Kinesiology',
+  // L
+  'Liberal Studies', 'Linguistics',
+  // M
+  'Management', 'Marketing', 'Mathematics', 'Mechanical Engineering',
+  'Media & Culture', 'Microbiology', 'Middle Childhood Education', 'Music', 'Music Education',
+  // N
+  'Neuroscience', 'Nursing',
+  // P
+  'Philosophy', 'Physical Education', 'Physics', 'Political Science',
+  'Pre-Law', 'Pre-Medicine', 'Psychology', 'Public Administration',
+  // R
+  'Real Estate',
+  // S
+  'Social Studies Education', 'Social Work', 'Sociology', 'Software Engineering',
+  'Spanish', 'Special Education', 'Speech Pathology & Audiology', 'Statistics',
+  'Strategic Communication',
+  // T
+  'Theatre',
+  // U
   'Undecided / Exploring',
+  // W–Z
+  "Women's, Gender & Sexuality Studies", 'Zoology',
 ]
 
 const MINORS = [
-  'Accounting', 'Art History', 'Biology', 'Chemistry', 'Communication',
-  'Computer Science', 'Cybersecurity', 'Economics', 'English',
-  'Environmental Studies', 'Finance', 'Geography', 'History', 'Journalism',
-  'Leadership Studies', 'Marketing', 'Mathematics', 'Music', 'Philosophy',
-  'Political Science', 'Psychology', 'Public Administration', 'Sociology',
-  'Spanish', 'Statistics', 'Strategic Communication', 'Theatre',
+  'Accounting', 'Art History', 'Biochemistry', 'Biology', 'Chemistry',
+  'Classical Humanities', 'Communication', 'Computer Science', 'Cybersecurity',
+  'Data Analytics', 'Economics', 'English', 'Entrepreneurship',
+  'Environmental Studies', 'Finance', 'French', 'Geography', 'German',
+  'Global & Intercultural Studies', 'History', 'Information Security',
+  'Interactive Media Studies', 'International Business', 'Journalism',
+  'Kinesiology', 'Leadership Studies', 'Linguistics', 'Management',
+  'Marketing', 'Mathematics', 'Microbiology', 'Music', 'Neuroscience',
+  'Philosophy', 'Political Science', 'Psychology', 'Public Administration',
+  'Real Estate', 'Social Work', 'Sociology', 'Spanish', 'Statistics',
+  'Strategic Communication', 'Theatre',
   "Women's Gender and Sexuality Studies",
 ]
 
